@@ -1,0 +1,12 @@
+**/*.bak
+**/*.bak.*
+**/*.ckpt
+**/*.old
+**/*.pyc
+**/.DS_Store
+**/.ipynb_checkpoints/
+**/.vscode/
+**/checkpoint
+**/logs
+**/*.SAV
+**/*.csv
