@@ -27,31 +27,38 @@ from sklearn.impute import IterativeImputer
 # Imbalanced learning
 from imblearn.over_sampling import RandomOverSampler
 
+#%%
 # Statistical models
 import statsmodels.api as sm
 from statsmodels.formula.api import mixedlm
 import scipy.stats as stats
-
+#%%
 # Visualization
 from mpl_toolkits.mplot3d import Axes3D
 
+#%%
 # Select German samples from PISA 2015 and 2018
 # PISA 2015, Student questionnaire SPSS
 try:
-    alldata15, meta15 = pyreadstat.read_sav("CY6_MS_CMB_STU_QQQ.sav")
+    alldata15, meta15 = pyreadstat.read_sav("data/DEU_CY6_MS_CMB_STU_QQQ.sav")
     DEUdata15 = alldata15[alldata15['CNT'] == "DEU"].copy()
     del alldata15
 except FileNotFoundError:
     print("PISA 2015 file not found. Please download from OECD website.")
 
+#%%
 # PISA 2018, Student questionnaire SPSS
 try:
-    alldata18, meta18 = pyreadstat.read_sav("CY07_MSU_STU_QQQ.sav")
+    alldata18, meta18 = pyreadstat.read_sav("data/DEU_CY07_MSU_STU_QQQ.sav")
     DEUdata18 = alldata18[alldata18['CNT'] == "DEU"].copy()
     del alldata18
 except FileNotFoundError:
     print("PISA 2018 file not found. Please download from OECD website.")
 
+#%%
+print(meta18.column_labels)  # Check column labels for 2018 data
+
+#%%
 # Select variables: demographics, ICT, maths, science, and weights
 def select_variables(data):
     # Get PV columns for MATH and SCIE
@@ -66,9 +73,13 @@ def select_variables(data):
     
     return data[selected_cols].copy()
 
+#%%
 dataA15 = select_variables(DEUdata15)
 dataA18 = select_variables(DEUdata18)
+#%%
+print(dataA15.head())  # Check first few rows of 2015 data
 
+#%%
 # Change column names
 rename_dict = {
     "CNTSCHID": "SCHL",
@@ -81,7 +92,7 @@ rename_dict = {
 
 dataA15 = dataA15.rename(columns=rename_dict)
 dataA18 = dataA18.rename(columns=rename_dict)
-
+#%%
 ## Missing Data Analysis
 # Find and remove rows with 100% ICT attitudes missing
 ict_cols = ['INTE', 'COMP', 'AUTO', 'SOCI']
@@ -93,20 +104,20 @@ print(f"Percentage of rows with 100% ICT missing (2015): {(na_rows_ict15 == 1).s
 # For 2018  
 na_rows_ict18 = dataA18[ict_cols].isnull().sum(axis=1) / len(ict_cols)
 print(f"Percentage of rows with 100% ICT missing (2018): {(na_rows_ict18 == 1).sum() / len(dataA18):.3f}")
-
+#%%
 # Remove rows with 100% ICT missingness
 dataB15 = dataA15[na_rows_ict15 < 1].copy()
 dataB18 = dataA18[na_rows_ict18 < 1].copy()
-
+#%%
 # Compare removed and remaining rows
 dataRem15 = dataA15[na_rows_ict15 == 1].copy()
 dataRem18 = dataA18[na_rows_ict18 == 1].copy()
-
+#%%
 # Gender distribution in removed data
 print("2015 - Removed data gender distribution:")
 print(f"Female: {(dataRem15['GEND'] == 1).sum()}")
 print(f"Male: {(dataRem15['GEND'] == 2).sum()}")
-
+#%%
 # ESCS histograms comparison
 fig, axes = plt.subplots(1, 2, figsize=(12, 5))
 
@@ -125,6 +136,7 @@ axes[1].legend()
 plt.tight_layout()
 plt.show()
 
+#%%
 # Missingness per variable
 na_var15 = dataB15.isnull().sum() / len(dataB15)
 na_var18 = dataB18.isnull().sum() / len(dataB18)
@@ -366,3 +378,5 @@ print("1. Use statsmodels.formula.api.mixedlm for hierarchical linear models")
 print("2. Implement proper survey weights handling")
 print("3. Calculate plausible values statistics properly")
 print("4. This requires more complex implementation beyond this basic conversion")
+
+# %%
