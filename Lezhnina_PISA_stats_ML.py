@@ -155,6 +155,7 @@ print(f"N schools: {dataB18['SCHL'].nunique()}")
 print(f"Female students: {(dataB18['GEND'] == 1).sum() / len(dataB18) * 100:.1f}%")
 print(f"Male students: {(dataB18['GEND'] == 2).sum() / len(dataB18) * 100:.1f}%")
 
+#%%
 # Subset with missing data for imputation
 dataC15 = dataB15.loc[:, na_var15 > 0].copy()
 dataC18 = dataB18.loc[:, na_var18 > 0].copy()
@@ -162,9 +163,11 @@ dataC18 = dataB18.loc[:, na_var18 > 0].copy()
 print(f"Percent missing in subset (2015): {dataC15.isnull().sum().sum() / dataC15.size:.3f}")
 print(f"Percent missing in subset (2018): {dataC18.isnull().sum().sum() / dataC18.size:.3f}")
 
+#%%
 # Impute with IterativeImputer (similar to missForest)
 np.random.seed(100)
 imputer15 = IterativeImputer(random_state=100, max_iter=10)
+
 dataI15 = pd.DataFrame(imputer15.fit_transform(dataC15), 
                        columns=dataC15.columns, 
                        index=dataC15.index)
@@ -174,7 +177,7 @@ imputer18 = IterativeImputer(random_state=100, max_iter=10)
 dataI18 = pd.DataFrame(imputer18.fit_transform(dataC18), 
                        columns=dataC18.columns, 
                        index=dataC18.index)
-
+#%%
 # Compare histograms before/after imputation
 fig, axes = plt.subplots(2, 5, figsize=(20, 8))
 fig.suptitle('Before/After Imputation Comparison')
@@ -194,7 +197,7 @@ for i, col in enumerate(ict_cols + ['ESCS']):
 
 plt.tight_layout()
 plt.show()
-
+#%%
 # Prepare data for machine learning
 def prepare_ml_data(dataB, dataI, year):
     # Get PV columns
@@ -228,9 +231,10 @@ def prepare_ml_data(dataB, dataI, year):
     
     return dataSc, dataM
 
+#%%
 dataSc15, dataM15 = prepare_ml_data(dataB15, dataI15, 2015)
 dataSc18, dataM18 = prepare_ml_data(dataB18, dataI18, 2018)
-
+#%%
 # Check class imbalance
 print("Class distribution 2015:")
 print("Math:", dataM15['M'].value_counts().sort_index())
@@ -239,7 +243,7 @@ print("Science:", dataSc15['Sc'].value_counts().sort_index())
 print("\nClass distribution 2018:")
 print("Math:", dataM18['M'].value_counts().sort_index())
 print("Science:", dataSc18['Sc'].value_counts().sort_index())
-
+#%%
 # Split 2015 into train/test sets
 np.random.seed(100)
 X_sc15 = dataSc15.drop('Sc', axis=1)
@@ -252,7 +256,7 @@ X_m15 = dataM15.drop('M', axis=1)
 y_m15 = dataM15['M']
 X_train_m15, X_test_m15, y_train_m15, y_test_m15 = train_test_split(
     X_m15, y_m15, test_size=0.2, random_state=100, stratify=y_m15)
-
+#%%
 # Oversample training sets
 ros = RandomOverSampler(random_state=100)
 X_train_sc15_over, y_train_sc15_over = ros.fit_resample(X_train_sc15, y_train_sc15)
