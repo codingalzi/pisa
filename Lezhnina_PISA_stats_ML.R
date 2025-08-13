@@ -12,7 +12,7 @@ library(missForest)
 library(rpart)
 library(rpart.plot)
 # Classification task
-library(UBL)
+# library(UBL)  # UBL package is no longer supported
 library(randomForest)
 library(pROC)
 library(pdp)
@@ -20,6 +20,41 @@ library(pdp)
 library(lme4)
 library(lmerTest)
 library(performance)
+
+# Custom function to replace UBL's RandOverClassif
+random_oversample <- function(form, dat) {
+  # Extract target variable name from formula
+  target_var <- as.character(form[[2]])
+  
+  # Get class counts
+  class_counts <- table(dat[[target_var]])
+  max_count <- max(class_counts)
+  
+  # Oversample each class to match the maximum count
+  oversampled_data <- data.frame()
+  
+  for(class in names(class_counts)) {
+    class_data <- dat[dat[[target_var]] == class, ]
+    current_count <- nrow(class_data)
+    
+    if(current_count < max_count) {
+      # Sample additional rows with replacement
+      additional_indices <- sample(nrow(class_data), 
+                                   max_count - current_count, 
+                                   replace = TRUE)
+      additional_data <- class_data[additional_indices, ]
+      class_data <- rbind(class_data, additional_data)
+    }
+    
+    oversampled_data <- rbind(oversampled_data, class_data)
+  }
+  
+  # Shuffle the rows
+  oversampled_data <- oversampled_data[sample(nrow(oversampled_data)), ]
+  rownames(oversampled_data) <- NULL
+  
+  return(oversampled_data)
+}
 
 
 # Select German samples from PISA 2015 and 2018
@@ -316,8 +351,8 @@ trainMU15 <- dataM15[indM15 == 1, ]
 testM15 <- dataM15[indM15 == 2, ]
 
 # Oversample traning set (but not test set!)
-trainSc15 <- RandOverClassif(form = Sc ~ ., dat = trainScU15)
-trainM15 <- RandOverClassif(form = M ~ ., dat = trainMU15)
+trainSc15 <- random_oversample(form = Sc ~ ., dat = trainScU15)
+trainM15 <- random_oversample(form = M ~ ., dat = trainMU15)
 
 # Picture a tree
 dev.off()
