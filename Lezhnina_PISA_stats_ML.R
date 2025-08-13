@@ -24,11 +24,11 @@ library(performance)
 
 # Select German samples from PISA 2015 and 2018
 # PISA 2015, Student questionnaire SPSS http://www.oecd.org/pisa/data/2015database/
-alldata15 <- read_sav("CY6_MS_CMB_STU_QQQ.sav")
+alldata15 <- read_sav("data/DEU_CY6_MS_CMB_STU_QQQ.sav")
 DEUdata15 <- alldata15[alldata15$CNT == "DEU", ]
 rm(alldata15)
 # PISA 2018, Student questionnaire SPSS http://www.oecd.org/pisa/data/2018database/
-alldata18 <- read_sav("CY07_MSU_STU_QQQ.sav")
+alldata18 <- read_sav("data/DEU_CY07_MSU_STU_QQQ.sav")
 DEUdata18 <- alldata18[alldata18$CNT == "DEU", ]
 rm(alldata18)
 
@@ -948,3 +948,5 @@ dev.off()
 sjPlot::plot_models(fmM, show.legend = F, title = "Mathematics 2015") # change the title for 2018
 sjPlot::plot_models(fmS, show.legend = F, title = "Science 2015") # change the title for 2018
 # The end
+
+
