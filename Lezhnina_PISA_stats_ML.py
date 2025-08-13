@@ -1,4 +1,3 @@
-#%% [markdown]
 # Libraries
 #%%
 import pandas as pd
@@ -235,7 +234,7 @@ def prepare_ml_data(dataB, dataI, year):
 dataSc15, dataM15 = prepare_ml_data(dataB15, dataI15, 2015)
 dataSc18, dataM18 = prepare_ml_data(dataB18, dataI18, 2018)
 #%%
-# Check class imbalance
+Check class imbalance
 print("Class distribution 2015:")
 print("Math:", dataM15['M'].value_counts().sort_index())
 print("Science:", dataSc15['Sc'].value_counts().sort_index())
@@ -265,17 +264,17 @@ X_train_m15_over, y_train_m15_over = ros.fit_resample(X_train_m15, y_train_m15)
 print("After oversampling:")
 print("Math training:", pd.Series(y_train_m15_over).value_counts().sort_index())
 print("Science training:", pd.Series(y_train_sc15_over).value_counts().sort_index())
-
+#%%
 # Decision Tree visualization
 dt_model = DecisionTreeClassifier(random_state=100, max_depth=4)
 dt_model.fit(X_train_m15_over, y_train_m15_over)
-
+#%%
 plt.figure(figsize=(15, 10))
 plot_tree(dt_model, feature_names=X_train_m15_over.columns, 
           class_names=['1', '2', '3'], filled=True)
 plt.title('Decision Tree for Mathematics')
 plt.show()
-
+#%%
 # Random Forest models
 np.random.seed(100)
 rf_m = RandomForestClassifier(n_estimators=100, random_state=100)
@@ -284,7 +283,7 @@ rf_m.fit(X_train_m15_over, y_train_m15_over)
 np.random.seed(100)
 rf_sc = RandomForestClassifier(n_estimators=100, random_state=100)
 rf_sc.fit(X_train_sc15_over, y_train_sc15_over)
-
+#%%
 # Feature importance plots
 fig, axes = plt.subplots(1, 2, figsize=(12, 5))
 
@@ -300,7 +299,7 @@ axes[1].set_title('Science Feature Importance')
 
 plt.tight_layout()
 plt.show()
-
+#%%
 # Model evaluation
 # Predictions
 pred_m15 = rf_m.predict(X_test_m15)
@@ -314,7 +313,7 @@ print(classification_report(y_test_m15, pred_m15))
 
 print("\nScience 2015 Test Set:")
 print(classification_report(y_test_sc15, pred_sc15))
-
+#%%
 # ROC curves for multiclass (one-vs-rest approach)
 from sklearn.preprocessing import LabelBinarizer
 from sklearn.metrics import roc_curve, auc
@@ -339,7 +338,7 @@ def plot_multiclass_roc(y_true, y_pred_proba, classes, title):
     plt.title(f'ROC Curves - {title}')
     plt.legend()
     plt.show()
-
+#%%
 # Get prediction probabilities
 pred_proba_m15 = rf_m.predict_proba(X_test_m15)
 pred_proba_sc15 = rf_sc.predict_proba(X_test_sc15)
@@ -347,10 +346,11 @@ pred_proba_sc15 = rf_sc.predict_proba(X_test_sc15)
 # Plot ROC curves
 plot_multiclass_roc(y_test_m15, pred_proba_m15, ['1', '2', '3'], 'Mathematics 2015')
 plot_multiclass_roc(y_test_sc15, pred_proba_sc15, ['1', '2', '3'], 'Science 2015')
-
+#%%
 # Partial dependence plots (simplified version)
-from sklearn.inspection import partial_dependence, plot_partial_dependence
+from sklearn.inspection import partial_dependence, PartialDependenceDisplay
 
+#%%
 fig, axes = plt.subplots(2, 5, figsize=(20, 8))
 fig.suptitle('Partial Dependence Plots')
 
@@ -359,23 +359,21 @@ features = ['INTE', 'COMP', 'AUTO', 'SOCI', 'ESCS']
 # Mathematics model - Class 1 vs 3
 for i, feature in enumerate(features):
     # Class 1 (low proficiency)
-    pd_result = partial_dependence(rf_m, X_train_m15_over, [i], 
-                                  kind='average')
-    axes[0, i].plot(pd_result['values'][0], pd_result['average'][0])
+    pd_result = partial_dependence(rf_m, X_train_m15_over, [i])
+    axes[0, i].plot(pd_result['grid_values'][0], pd_result['average'][0])
     axes[0, i].set_title(f'Math Class 1 - {feature}')
     axes[0, i].set_ylim(0, 0.5)
 
 # Science model - Class 1
 for i, feature in enumerate(features):
-    pd_result = partial_dependence(rf_sc, X_train_sc15_over, [i], 
-                                  kind='average')
-    axes[1, i].plot(pd_result['values'][0], pd_result['average'][0])
+    pd_result = partial_dependence(rf_sc, X_train_sc15_over, [i])
+    axes[1, i].plot(pd_result['grid_values'][0], pd_result['average'][0])
     axes[1, i].set_title(f'Science Class 1 - {feature}')
     axes[1, i].set_ylim(0, 0.5)
 
 plt.tight_layout()
 plt.show()
-
+#%%
 print("Machine Learning analysis completed!")
 print("\nFor the statistical multilevel modeling part, you would need to:")
 print("1. Use statsmodels.formula.api.mixedlm for hierarchical linear models")
