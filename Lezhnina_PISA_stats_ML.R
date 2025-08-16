@@ -132,6 +132,7 @@ NArowsICT15 <-
     INTE, COMP, AUTO, SOCI
   )))) / ncol(subset(dataA15, select = c(INTE, COMP, AUTO, SOCI)))
 sum(NArowsICT15 == 1) / nrow(dataA15) # percentage of rows we want to remove
+
 # the same for 2018
 NArowsICT18 <-
   rowSums(is.na(subset(dataA18, select = c(
@@ -147,6 +148,7 @@ dataB18 <- dataA18[NArowsICT18 < 1,] # 2018
 dataRem15 <- dataA15[NArowsICT15 == 1,] # for 2015
 nrow(dataRem15[dataRem15$GEND == 1, ])# female
 nrow(dataRem15[dataRem15$GEND == 2, ])# male
+
 hist(
   dataRem15$ESCS,
   ylim = c(0, 1000),
@@ -154,12 +156,14 @@ hist(
   main = NULL,
   xlab = "ESCS"
 ) #ESCS missing
+
 hist(
   dataB15$ESCS,
   ylim = c(0, 1000),
   col = rgb(0.6, 0.2, 0, 0.25),
   add = T
 ) # ESCS remaining
+
 NstudMiss <-
   apply(as.data.frame(unique(dataRem15$SCHL)), 1, function(i) {
     sum(nrow(dataRem15[dataRem15$SCHL == i,]))
@@ -170,6 +174,7 @@ max(NstudMiss)
 dataRem18 <- dataA18[NArowsICT18 == 1,]
 nrow(dataRem18[dataRem18$GEND == 1, ])# female
 nrow(dataRem18[dataRem18$GEND == 2, ])# male
+
 hist(
   dataRem18$ESCS,
   ylim = c(0, 1000),
@@ -177,12 +182,14 @@ hist(
   main = NULL,
   xlab = "ESCS"
 ) # ESCS missing
+
 hist(
   dataB18$ESCS,
   ylim = c(0, 1000),
   col = rgb(0.6, 0.2, 0, 0.25),
   add = T
 ) # ESCS remaining
+
 NstudMiss <-
   apply(as.data.frame(unique(dataRem18$SCHL)), 1, function(i) {
     sum(nrow(dataRem18[dataRem18$SCHL == i,]))
@@ -221,6 +228,7 @@ VIM::aggr(dataC15, cex.axis = 0.8)
 title("2015")
 VIM::aggr(dataC18, cex.axis = 0.8)
 title("2018")
+
 # Missingness matrices
 VIM::scattmatrixMiss(dataC15)
 VIM::scattmatrixMiss(dataC18)
@@ -229,6 +237,7 @@ VIM::scattmatrixMiss(dataC18)
 set.seed(100)
 dataRF15 <- missForest(dataC15)
 dataI15 <- dataRF15$ximp
+
 # the same for 2018
 set.seed(100)
 dataRF18 <- missForest(dataC18)
@@ -236,54 +245,58 @@ dataI18 <- dataRF18$ximp
 
 # Compare  histograms
 # For 2015
-C <- na.omit(dataC15)
-I <- dataI15
+C15 <- na.omit(dataC15)
+I15 <- dataI15
+
 par(mfrow = c(1, 5))
-histfun <-
+
+histfun15 <-
   function(i) {
     hist(
-      C[, i],
+      C15[, i],
       ylim = c(0, 1500),
       col = rgb(0, 0.2, 0, 0.5),
       main = NULL,
       xlab = print(paste(names(C[i])))
     )
     hist(
-      I[, i],
+      I15[, i],
       ylim = c(0, 1500),
       col = rgb(0.6, 1, 0, 0.25),
       add = T
     )
   }
-lapply(c(1:5), histfun)
+lapply(c(1:5), histfun15)
 
 # for 2018
-C <- na.omit(dataC18)
-I <- dataI18
-histfun <-
+C18 <- na.omit(dataC18)
+I18 <- dataI18
+histfun18 <-
   function(i) {
     hist(
-      C[, i],
+      C18[, i],
       ylim = c(0, 1500),
       col = rgb(0, 0.2, 0, 0.5),
       main = NULL,
       xlab = print(paste(names(C[i])))
     )
     hist(
-      I[, i],
+      I18[, i],
       ylim = c(0, 1500),
       col = rgb(0.6, 1, 0, 0.25),
       add = T
     )
   }
-lapply(c(1:5), histfun)
+lapply(c(1:5), histfun18)
 
 # Prepare the data for machine learning models
 dataPV15 <-
   dplyr::select(dataB15, c("GEND", starts_with("PV")))
 dataD15 <- cbind(dataI15, dataPV15)
+
 # gender as factor recoded as 0 and 1
 dataD15$GEND <- as.factor(car::recode(dataD15$GEND, "'2' = 1; '1' = 0"))
+
 # levels of proficiency
 dataD15$meansM <-
   rowMeans(subset(dataD15, select = c(PV1MATH:PV10MATH)))
@@ -293,6 +306,7 @@ dataD15$Sc <-
   cut(dataD15$meansS,
       c(0, 409.54, 633.33, 1000),
       labels = c("1", "2", "3"))
+
 dataSc15 <-
   dplyr::select(dataD15, c("INTE", "COMP", "AUTO", "SOCI", "ESCS", "GEND", "Sc"))
 dataD15$M <-
@@ -301,12 +315,15 @@ dataD15$M <-
       labels = c("1", "2", "3"))
 dataM15 <-
   dplyr::select(dataD15, c("INTE", "COMP", "AUTO", "SOCI", "ESCS", "GEND", "M"))
+
 # the same for 2018
 dataPV18 <-
   dplyr::select(dataB18, c("GEND", starts_with("PV")))
 dataD18 <- cbind(dataI18, dataPV18)
+
 # gender as factor recoded as 0 and 1
 dataD18$GEND <- as.factor(car::recode(dataD18$GEND, "'2' = 1; '1' = 0"))
+
 # levels of proficiency
 dataD18$meansM <-
   rowMeans(subset(dataD18, select = c(PV1MATH:PV10MATH)))
@@ -329,25 +346,35 @@ dataM18 <-
 for (i in 1:3) {
   print(paste(nrow(dataM15[dataM15$M == i, ])))
 }
+
 for (i in 1:3) {
   print(paste(nrow(dataSc15[dataSc15$Sc == i, ])))
 }
+
 for (i in 1:3) {
   print(paste(nrow(dataM18[dataM18$M == i, ])))
 }
+
 for (i in 1:3) {
   print(paste(nrow(dataSc18[dataSc18$Sc == i, ])))
 }
 
 # Split 2015 into training set and test set
 set.seed(100)
+
 indSc15 <-
   sample(2, nrow(dataSc15), replace = TRUE, prob = c(.8, .2))
+
 trainScU15 <- dataSc15[indSc15 == 1, ]
+
 testSc15 <- dataSc15[indSc15 == 2, ]
+
 set.seed(100)
+
 indM15 <- sample(2, nrow(dataM15), replace = TRUE, prob = c(.8, .2))
+
 trainMU15 <- dataM15[indM15 == 1, ]
+
 testM15 <- dataM15[indM15 == 2, ]
 
 # Oversample traning set (but not test set!)
@@ -405,6 +432,7 @@ layout(
   mat = matrix(c(1, 2, 3, 4, 5, 5, 5, 5), nrow = 2, byrow = TRUE),
   heights = c(0.4, 0.2)
 )
+
 # Mathematics 2015
 plot(
   smooth(roc(
@@ -420,6 +448,7 @@ plot(
   xlab = "False Positive Rate",
   ylab = "True Positive Rate"
 )
+
 plot(
   smooth(roc(
     as.numeric(fittedM15),
@@ -433,6 +462,7 @@ plot(
   lty = 2,
   add = T
 )
+
 plot(
   smooth(roc(
     as.numeric(fittedM15),
@@ -446,7 +476,9 @@ plot(
   lty = 3,
   add = T
 )
+
 title(xlab = "Mathematics 2015", adj = 0.7, line = -6)
+
 # Science 2015
 plot(
   smooth(roc(
@@ -462,6 +494,7 @@ plot(
   xlab = "False Positive Rate",
   ylab = "True Positive Rate"
 )
+
 plot(
   smooth(roc(
     as.numeric(fittedSc15),
@@ -475,6 +508,7 @@ plot(
   lty = 2,
   add = T
 )
+
 plot(
   smooth(roc(
     as.numeric(fittedSc15),
@@ -488,7 +522,9 @@ plot(
   lty = 3,
   add = T
 )
+
 title(xlab = "Science 2015", adj = 0.7, line = -6)
+
 # Mathematics 2018
 plot(
   smooth(roc(
@@ -504,6 +540,7 @@ plot(
   xlab = "False Positive Rate",
   ylab = "True Positive Rate"
 )
+
 plot(
   smooth(roc(
     as.numeric(fittedM18),
@@ -517,6 +554,7 @@ plot(
   lty = 2,
   add = T
 )
+
 plot(
   smooth(roc(
     as.numeric(fittedM18),
@@ -530,7 +568,9 @@ plot(
   lty = 3,
   add = T
 )
+
 title(xlab = "Mathematics 2018", adj = 0.7, line = -6)
+
 # Science 2018
 plot(
   smooth(roc(
@@ -546,6 +586,7 @@ plot(
   xlab = "False Positive Rate",
   ylab = "True Positive Rate"
 )
+
 plot(
   smooth(roc(
     as.numeric(fittedSc18),
@@ -559,6 +600,7 @@ plot(
   lty = 2,
   add = T
 )
+
 plot(
   smooth(roc(
     as.numeric(fittedSc18),
@@ -572,7 +614,9 @@ plot(
   lty = 3,
   add = T
 )
+
 title(xlab = "Science 2018", adj = 0.7, line = -6)
+
 # Legend
 par(mar = c(0, 0, 0, 0))
 plot(
@@ -582,6 +626,7 @@ plot(
   xlab = "",
   ylab = ""
 )
+
 legend(
   x = "top",
   legend = c("1-3", "2-3", "1-2"),
@@ -597,7 +642,9 @@ legend(
 # Plot one predictor pdps
 # Mathematics model
 dev.off()
+
 par(mfrow = c(2, 5))
+
 # Class 1
 for (j in 1:5) {
   plot(
@@ -617,6 +664,7 @@ for (j in 1:5) {
     ylab = "MTH-1"
   )
 }
+
 # Class 3
 for (j in 1:5) {
   plot(
@@ -636,6 +684,7 @@ for (j in 1:5) {
     ylab = "MTH-3"
   )
 }
+
 # Science model
 # Class 1
 for (j in 1:5) {
@@ -656,6 +705,7 @@ for (j in 1:5) {
     ylab = "SCI-1"
   )
 }
+
 # Class 3
 for (j in 1:5) {
   plot(
@@ -693,6 +743,7 @@ plotPartial(
   colorkey  = FALSE,
   screen    = list(z = -40, x = -40)
 )
+
 pdAE2 <- partial(
   rfSc,
   train = trainSc15,
@@ -725,6 +776,9 @@ plotPartial(
   colorkey  = FALSE,
   screen    = list(z = -40, x = -40)
 )
+
+###
+###
 
 # Statistical part, HLM
 # Run the script to the end first for the 2015 data
