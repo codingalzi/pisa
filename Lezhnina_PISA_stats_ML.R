@@ -792,31 +792,42 @@ dataB <- dataB15
 # ICT variables and ESCS: center and standardise by two sds
 DataForStd <-
   as.data.frame(scale(dataI, center = TRUE, scale = FALSE))
+
 twosd <- function(i) {
   0.5 * i / sd(i)
 }
+
 StanData <- as.data.frame(apply(DataForStd, 2, twosd))
+
 #Gender: as factor & recode to 0 and 1
 GEND <- as.data.frame(as.factor(car::recode(dataB$GEND, "'2' = 1; '1' = 0")))
 names(GEND) <- "GEND"
+
 # PVs and school ID: leave as they were
 LeftData <-
   dplyr::select(dataB, c("SCHL", starts_with("PV")))
+
 # Weights: correct for the sample size
 WeightDataOld <- dplyr::select(dataB, starts_with("W_FS"))
+
 correctweight <- function(i) {
   nrow(WeightDataOld) * i / sum(i)
 }
+
 WeightDataNew <-
   as.data.frame(apply(WeightDataOld, 2, correctweight))
+
 # Merge
 mydata <- cbind(StanData, GEND, LeftData, WeightDataNew)
 
 # Students per group
-Nstud <-
-  apply(as.data.frame(unique(mydata$SCHL)), 1, function(i) {
-    sum(nrow(mydata[mydata$SCHL == i,]))
-  })
+# Nstud <-
+#   apply(as.data.frame(unique(mydata$SCHL)), 1, function(i) {
+#     sum(nrow(mydata[mydata$SCHL == i,]))
+#   })
+
+Nstud <- table(mydata$SCHL)
+
 sum(Nstud < 10) # number of groups with less than 10 students
 
 # Multilevel models
@@ -830,8 +841,10 @@ WeightsData <- dplyr::select(mydata, contains("W_FS"))
 nullmodvar <- function(i) {
   summary(lmer(i ~ 1 + (1 | SCHL), mydata, weights = W_FSTUWT))$varcor
 }
+
 NullMathVar <-
   dplyr::select(as.data.frame(apply(PVsMath, 2, nullmodvar)), contains("vcov"))
+
 NullMathInCptVar <- rowMeans(NullMathVar[1, ])
 NullMathResidVar <- rowMeans(NullMathVar[2, ])
 ICCmath <- NullMathInCptVar / (NullMathInCptVar + NullMathResidVar)
@@ -1020,10 +1033,12 @@ diagplotM <- function(i) {
   sjPlot::plot_model(fmM[[i]], type = "diag")
 }
 lapply(c(1:10), diagplotM)
+
 diagplotS <- function(i) {
   sjPlot::plot_model(fmS[[i]], type = "diag")
 }
 lapply(c(1:10), diagplotS)
+
 # Check for no multicollinearity with VIF
 for (i in 1:10) {
   print(paste(car::vif(fmM[[i]])))
@@ -1031,6 +1046,7 @@ for (i in 1:10) {
 for (i in 1:10) {
   print(paste(car::vif(fmS[[i]])))
 }
+
 # Visualize models
 # Plot estimates, all PVs
 dev.off()
