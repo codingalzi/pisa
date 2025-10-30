@@ -1,0 +1,197 @@
+﻿카테고리,항목명,PISA변수,출처,설명
+학생_배경,ESCS,ESCS,STU,"Index of economic, social and cultural status"
+학생_배경,아버지의_사회경제직업수준,BFMJ2,STU,ISEI of father
+학생_배경,어머니의_사회경제직업수준,BMMJ1,STU,ISEI of mother
+학생_배경,아버지의_교육수준,FISCED,STU,Father's Education (ISCED)
+학생_배경,어머니의_교육수준,MISCED,STU,Mother's Education (ISCED)
+학생_배경,부모님의_교육수준,HISCED,STU,Highest Education of parents (ISCED)
+학생_배경,가정의_문화적_보유자산,CULTPOSS,STU,Cultural possessions at home (WLE)
+학생_배경,가정의_교육적_자산,HEDRES,STU,Home educational resources (WLE)
+학생_배경,가정의_부유함,WEALTH,STU,Family wealth (WLE)
+학생_배경,ICT_자산,ICTRES,STU,ICT resources (WLE)
+학생_배경,이민_상황_지표,ST019AQ01T; ST019BQ01T; ST019CQ01T; ST021Q01TA; IMMIG,STU,"Immigration status: birth countries (student, mother, father), age of arrival, and immigration index"
+학생_배경,학력변경_횟수,CHANGE,STU,Number of changes in educational biography (Sum)
+학생_배경,학년유예,REPEAT,STU,Grade Repetition
+학생_배경,전학횟수,SCCHANGE,STU,Number of school changes
+학생_배경,나이,AGE,STU,Age
+학생_배경,가정에서_사용_가능한_ICT,ICTHOME,STU,ICT available at home
+학생_배경,성별,ST004D01T,STU,Student (Standardized) Gender
+학생_배경,집에서_주로_사용하는_언어,ST022Q01TA,STU,What language do you speak at home most of the time?
+학생_배경,초등학교_재학_중_전학_여부,EC031Q01TA,STU,Did you change schools when you were attending <ISCED 1>?
+학생_배경,중학교_재학_중_전학_여부,EC032Q01TA,STU,Did you change schools when you were attending <ISCED 2>?
+학생_배경,학습_계열_변경_여부,EC033Q01NA,STU,Have you ever changed your <study programme>?
+학생_배경,연간_가계_소득,PA042Q01TA,STU,What is your annual household income?
+학생_과정,읽기_전략_요약,METASUM,STU,Meta-cognition: summarising
+학생_과정,읽기_전략_이해_및_기억,UNDREM,STU,Meta-cognition: understanding and remembering
+학생_과정,디지털_읽기_전략_질과_신뢰성_평가,METASPAM,STU,Meta-cognition: assess credibility
+학생_과정,읽기에_대한_즐거움,JOYREAD,STU,Joy/Like reading (WLE)
+학생_과정,읽기에_대한_능력_지각,SCREADCOMP,STU,Self-concept of reading: Perception of competence (WLE)
+학생_과정,읽기에_대한_어려움_지각,SCREADDIFF,STU,Self-concept of reading: Perception of difficulty (WLE)
+학생_과정,긍정적_감정,SWBP,STU,Subjective well-being: Positive affect (WLE)
+학생_과정,행복감,ST016Q01NA,STU,"Overall, how satisfied are you with your life as a whole these days?"
+학생_과정,실패에_대한_두려움,GFOFAIL,STU,General fear of failure (WLE)
+학생_과정,숙달_목표_지향,MASTGOAL,STU,Mastery goal orientation (WLE)
+학생_과정,회복탄력성,RESILIENCE,STU,Resilience (WLE)
+학생_과정,작업_완성도,ST182Q03HA; ST182Q04HA; ST182Q05HA; ST182Q06HA; WORKMAST,STU,Work mastery: 4 items + composite index (WLE)
+학생_과정,총_공부시간,TMINS,STU,Learning time (minutes per week) - in total
+학생_과정,국어_공부시간,LMINS,STU,Learning time (minutes per week) - <test language>
+학생_과정,수학_공부시간,MMINS,STU,Learning time (minutes per week) - <Mathematics>
+학생_과정,과학_공부시간,SMINS,STU,Learning time (minutes per week) - <science>
+학생_과정,PISA_검사_노력,EFFORT1,STU,How much effort did you put into this test?
+학생_과정,PISA_응답_노력,EFFORT2,STU,How much effort would you have invested?
+학생_과정,PISA_검사_어려움_인식,PISADIFF,STU,Perception of difficulty of the PISA test (WLE)
+학생_과정,삶의_만족도,ST016Q01NA,STU,"Overall, how satisfied are you with your life as a whole these days?"
+학생_과정,따돌림_경험,ST038Q03NA; ST038Q04NA; ST038Q05NA; ST038Q06NA; ST038Q07NA; ST038Q08NA,STU,"During the past 12 months, how often: bullying experiences"
+학생_과정,무단결석_결과_지각,ST062Q01TA; ST062Q02TA; ST062Q03TA,STU,"In the last two full weeks of school, how often: skipped/late"
+학생_과정,따돌림_의견,ST207Q01HA; ST207Q02HA; ST207Q03HA; ST207Q04HA; ST207Q05HA,STU,Agree: opinions about bullying
+학생_과정,학습기회_텍스트_길이,ST154Q01HA,STU,"<this academic year>, how many pages was the longest piece of text you had to read for your <test language lessons>?"
+학생_과정,다양한_자료_읽기_활동,ST167Q01IA; ST167Q02IA; ST167Q03IA; ST167Q04IA; ST167Q05IA,STU,How often do you read these materials because you want to?
+학생_과정,책_읽는_방식,ST168Q01HA,STU,Which of the following statements best describes how you read books (on any topic)?
+학생_과정,뉴스_읽는_방식,IC169Q01HA,STU,Which of the following statements best describes how you read the news
+학생_과정,읽기_시간,ST175Q01IA,STU,About how much time do you usually spend reading for enjoyment?
+학생_과정,온라인_읽기_활동,ST176Q01IA; ST176Q02IA; ST176Q03IA; ST176Q05IA; ST176Q06IA; ST176Q07IA,STU,How often involved in: online reading activities
+학생_과정,지능의_가변_이론,ST184Q01HA,STU,Agree: Your intelligence is something about you that you can't change very much.
+학생_과정,주관적_삶의_안녕감,ST185Q01HA; ST185Q02HA; ST185Q03HA; ST186Q05HA; ST186Q06HA; ST186Q07HA,STU,Life satisfaction and emotional well-being
+학생_과정,기술습득_여부,EC151Q01WA; EC151Q01WB; EC151Q01WC; EC151Q02WA; EC151Q02WB; EC151Q02WC; EC151Q03WA; EC151Q03WB; EC151Q03WC; EC151Q04WA; EC151Q04WB; EC151Q04WC; EC151Q05WA; EC151Q05WB; EC151Q05WC,STU,Acquired skills: career-related skills
+학생_과정,정규수업외_추가교육,EC154Q01IA; EC154Q02IA; EC154Q03IA; EC154Q04HA; EC154Q05IA; EC154Q06IA; EC154Q07IA; EC154Q08HA; EC154Q09IA,STU,Do you currently attend additional instruction?
+학생_과정,등교전_공부시간,EC158Q01HA; EC158Q02HA,STU,How long did you study in the morning before going to school?
+학생_과정,방과후_공부시간,EC159Q01HA; EC159Q02HA,STU,How long did you study after leaving school?
+학생_과정,등교전_방과후_공부_이유,EC163Q01HA; EC163Q02HA; EC163Q03HA; EC163Q04HA; EC163Q05HA; EC163Q06HA; EC163Q07HA,STU,Why did you study before or after school?
+학생_과정,해외_교환학생_프로그램_참여_희망,EC160Q01HA,STU,"If you had the opportunity to participate in a student exchange programme [...], would you like to take part?"
+진로_관련,학생이_기대하는_직업_지위,BSMJ,STU,Student's expected occupational status (SEI)
+진로_관련,직업에_대한_정보,INFOCAR,STU,Information about careers (WLE)
+진로_관련,학교_노동시장_정보,INFOJOB1,STU,Information about the labour market provided by the school (WLE)
+진로_관련,학교외_노동시장_정보,INFOJOB2,STU,Information about the labour market provided outside of school (WLE)
+진로_관련,최종_학력_기대,ST225Q01HA; ST225Q02HA; ST225Q03HA; ST225Q04HA; ST225Q05HA; ST225Q06HA,STU,Do you expect to complete?
+진로_관련,미래_직업_결정_중요_요소,EC153Q01HA; EC153Q02HA; EC153Q03HA; EC153Q04HA; EC153Q05HA; EC153Q06HA; EC153Q07HA; EC153Q08HA; EC153Q09HA; EC153Q10HA; EC153Q11HA,STU,Importance for decisions about future occupation
+ICT,ICT에_대한_흥미,INTICT,STU,Interest in ICT (WLE)
+ICT,ICT역량_인지,COMPICT,STU,Perceived ICT competence (WLE)
+ICT,ICT_사용_자율성,AUTICT,STU,Perceived autonomy related to ICT use (WLE)
+ICT,학교_사용가능_ICT,ICTSCH,STU,ICT available at school
+ICT,학교_일상적_ICT_사용,USESCH,STU,Use of ICT at school in general (WLE)
+ICT,학교외_ICT_사용_학교활동,HOMESCH,STU,Use of ICT outside of school (for school work activities) (WLE)
+ICT,학교외_ICT_사용_레저,ENTUSE,STU,ICT use outside of school (leisure) (WLE)
+ICT,사회적_상호작용_ICT,SOIAICT,STU,ICT as a topic in social interaction (WLE)
+ICT,수업_ICT_사용,ICTCLASS,STU,Subject-related ICT use during lessons (WLE)
+ICT,수업외_ICT_사용,ICTOUTSIDE,STU,Subject-related ICT use outside of lessons (WLE)
+ICT,디지털기기_처음_사용_시기,IC002Q01HA,STU,How old were you when you first used a digital device?
+ICT,인터넷_처음_접속_시기,IC004Q01HA,STU,How old were you when you first accessed the Internet?
+ICT,학교_인터넷_사용_정도,IC005Q01TA,STU,"During a typical weekday, for how long do you use the Internet at school?"
+ICT,학교외_인터넷_사용_정도,IC006Q01TA; IC007Q01TA,STU,Internet use outside of school - weekday and weekend
+ICT,수업_디지털기기_사용,IC152Q01HA; IC152Q02HA; IC152Q03HA; IC152Q04HA; IC152Q05HA,STU,Digital device used for learning or teaching during lessons within the last month
+ICT,학교외_학교관련_디지털기기_사용,HOMESCH,STU,Use of ICT outside of school (for school work activities) (WLE)
+사회환경적,학교_소속감,BELONG,STU,Subjective well-being: Sense of belonging to school (WLE)
+사회환경적,경쟁력,COMPETE,STU,Competitiveness (WLE)
+사회환경적,학교_경쟁_인식,PERCOMP,STU,Perception of competitiveness at school (WLE)
+사회환경적,학생_협동,PERCOOP,STU,Perception of cooperation at school (WLE)
+사회환경적,학습활동_태도,ATTLNACT,STU,Attitude towards school: learning activities (WLE)
+사회환경적,교사_흥미_인식,TEACHINT,STU,Perceived teacher's interest (WLE)
+사회환경적,교사_직접적_지시,DIRINS,STU,Teacher-directed instruction (WLE)
+사회환경적,수업_피드백,PERFEED,STU,Perceived feedback (WLE)
+사회환경적,지시_순응,DISCLIMA,STU,Disciplinary climate in test language lessons (WLE)
+사회환경적,읽기_참여_교사_지지,STIMREAD,STU,Teacher's stimulation of reading engagement perceived by student (WLE)
+사회환경적,국어수업_징벌적_분위기,DISCLIMA,STU,Disciplinary climate in test language lessons (WLE)
+사회환경적,국어수업_교사_지지,TEACHSUP,STU,Teacher support in test language lessons (WLE)
+사회환경적,부모_정서적_지지,EMOSUPS,STU,Parents' emotional support perceived by student (WLE)
+사회환경적,유아기_교육과_돌봄,DURECEC,STU,Duration in early childhood education and care
+사회환경적,학교공부_주변_지원,EC155Q01DA; EC155Q02DA; EC155Q03DA; EC155Q04HA; EC155Q05HA,STU,How often do the following people work with you on your schoolwork?
+사회환경적,교사_지원,ST100Q01TA; ST100Q02TA; ST100Q03TA; ST100Q04TA,STU,Teacher support in test language lessons
+사회환경적,학습기회_자료,ST150Q01IA; ST150Q02IA; ST150Q03IA; ST150Q04HA,STU,"During the last month, how often did you have to read for school"
+사회환경적,학습기회_국어수업_과제,ST153Q01HA; ST153Q02HA; ST153Q03HA; ST153Q04HA; ST153Q05HA; ST153Q06HA; ST153Q08HA; ST153Q09HA; ST153Q10HA,STU,"When you have to read, does the teacher ask you to"
+사회환경적,디지털_국어_학습기회,ST158Q01HA; ST158Q02HA; ST158Q03HA; ST158Q04HA; ST158Q05HA; ST158Q06HA; ST158Q07HA,STU,Taught at school: digital literacy skills
+부모_관련,현재_가정_학습_지원,CURSUPP,STU,Current parental support for learning at home (WLE)
+부모_관련,과거_가정_학습_지원,PRESUPP,STU,Previous parental support for learning at home (WLE)
+부모_관련,부모_정서적_지원,EMOSUPP,STU,Parents' emotional support (WLE)
+부모_관련,부모_읽기_즐거움,JOYREADP,STU,Parents' enjoyment of reading (WLE)
+부모_관련,학부모_참여_학교정책,PASCHPOL,STU,School policies for parental involvement (WLE)
+부모_관련,부모_인식_학교_질,PQSCHOOL,STU,Parents' perceived school quality (WLE)
+부모_관련,자녀_10살_읽기_빈도,PA156Q01HA; PA156Q02HA; PA156Q03HA; PA156Q04HA,STU,"Thinking back to when your child was about 10 years old, how often would he or she read"
+부모_관련,부모_취미_독서시간,PA159Q01HA,STU,About how much time do you usually spend reading for enjoyment?
+부모_관련,부모_다양한_읽기_자료,PA160Q01HA; PA160Q02HA; PA160Q03HA; PA160Q04HA; PA160Q05HA; PA161Q01HA; PA161Q02HA; PA161Q03HA; PA161Q05HA; PA161Q06HA; PA161Q07HA,STU,How often do you read these types of texts / reading activities
+부모_관련,부모_책_읽는_방식,PA162Q01HA,STU,Which of the following statements best describes how you read books
+부모_관련,부모_뉴스_읽는_방식,PA163Q01HA,STU,Which of the following statements best describes how you read the news
+부모_관련,12개월_교육비,PA041Q01TA,STU,"In the last twelve months, about how much would you have paid to educational providers for services?"
+부모_관련,자녀_학교_선택권,PA005Q01TA; PA006Q01TA,STU,School choice availability and importance
+부모_관련,자녀_학교_선택_중요_요소,PA006Q02TA; PA006Q03TA; PA006Q04TA; PA006Q05TA; PA006Q06TA; PA006Q07TA; PA006Q08TA; PA006Q09TA; PA006Q10TA; PA006Q11TA; PA006Q12HA; PA006Q13HA; PA006Q14HA,STU,Importance for choosing a school
+부모_관련,학부모_학교활동_참여도,PA008Q01TA; PA008Q02TA; PA008Q03TA; PA008Q04TA; PA008Q05TA; PA008Q06NA; PA008Q07NA; PA008Q08NA; PA008Q09NA; PA008Q10NA,STU,<the last academic year>: parent participation in school activities
+부모_관련,학부모_학교활동_불참_사유,PA009Q01NA; PA009Q02NA; PA009Q03NA; PA009Q04NA; PA009Q05NA; PA009Q06NA; PA009Q07NA; PA009Q08NA; PA009Q09NA; PA009Q10NA; PA009Q11NA,STU,"<the last academic year>, participation hindered"
+부모_관련,자녀_영유아_교육_참여_여부,PA018Q01NA; PA018Q02NA; PA018Q03NA,STU,Child regularly attended prior to <grade 1 in ISCED 1>
+부모_관련,자녀_영유아_교육_참여_나이,PA177Q01HA; PA177Q02HA; PA177Q03HA; PA177Q04HA; PA177Q05HA; PA177Q06HA; PA177Q07HA; PA177Q08HA,STU,Ages child attended <early childhood education and care arrangement>
+부모_관련,자녀_영유아_교육_참여_이유,PA180Q01HA; PA182Q01HA; PA183Q01HA,STU,Early childhood education participation reason and duration
+부모_관련,자녀_영유아_교육_참여_정도,PA182Q01HA,STU,Hours per week child attended a <early childhood education and care arrangement>
+부모_관련,자녀_초등1학년_활동_언어,PA155Q01IA,STU,In what language did most of the activities in the previous question take place?
+부모_관련,사회이슈_역사_관심,PA169Q01HA; PA169Q02HA; PA169Q03HA; PA169Q04HA; PA169Q05HA; PA169Q06HA,STU,How interested are you in the following issues?
+부모_관련,자녀_기대_학력,PA172Q01WA; PA172Q02WA; PA172Q03WA; PA172Q04WA; PA172Q05WA; PA172Q06WA,STU,Which of the following do you expect your child to complete?
+부모_관련,자녀_초등_추가_국어수업,PA175Q01HA; PA175Q02HA,STU,Did your child attend the following additional instructions during [ISCED 1]?
+부모_관련,학부모_설문_응답자,PA001Q01TA; PA001Q02TA; PA001Q03TA,STU,Who will complete this questionnaire?
+교사_관련,교사만족도_근무환경,SATJOB,TCH,Teacher's satisfaction with the current job environment (WLE)
+교사_관련,교사만족도_직,SATTEACH,TCH,Teacher's satisfaction with teaching profession (WLE)
+교사_관련,교사효능감_학급운영,SEFFCM,TCH,Teacher's self-efficacy in classroom management (WLE)
+교사_관련,교사효능감_교수환경,SEFFINS,TCH,Teacher's self-efficacy in instructional settings (WLE)
+교사_관련,교사효능감_긍정적_관계,SEFFREL,TCH,Teacher's self-efficacy in maintaining positive relations with students (WLE)
+교사_관련,fulltime_여부,EMPLTIM,TCH,Teacher employment time - dichotomous
+교사_관련,교사_교환_조정,EXCHT,TCH,Exchange and co-ordination for teaching (WLE)
+교사_관련,교사_피드백,FEEDBACK,TCH,Feedback provided by the teachers (WLE)
+교사_관련,교사_엄격한_정의,OTT1,TCH,Originally trained teacher (strict definition): standard teacher training
+교사_관련,교사_광범위한_정의,OTT2,TCH,"Originally trained teacher (wide definition): standard, in-service, or work-based teacher training"
+교사_관련,교사_교육자료_부족,TCEDUSHORT,TCH,Teacher's view on educational material shortage (WLE)
+교사_관련,교사_교직원_부족,TCSTAFFSHORT,TCH,Teacher's view on staff shortage (WLE)
+교사_관련,교사_ICT_응용,TCICTUSE,TCH,Teacher's use of specific ICT applications (WLE)
+교사_관련,독해력_기회,TCOTLCOMP,TCH,Opportunity to learn (OTL) aspects of reading comprehension (WLE)
+교사_관련,교사_전문지식_효능감,TC152Q01HA; TC152Q02HA; TC152Q03HA; TC152Q04HA,TCH,Teacher's professional knowledge and efficacy
+교사_관련,교사_신념_효능감,TC198Q01HA; TC198Q02HA; TC198Q03HA; TC198Q04HA; TC198Q05HA; TC198Q06HA; TC198Q07HA; TC198Q08HA,TCH,Teacher's beliefs and efficacy about teaching
+교사_관련,교직_견해,TC198Q08HA; TC198Q09HA; TC198Q10HA,TCH,Views on teaching profession
+교사_관련,12개월_전문성_계발,TC193Q01HA; TC193Q02HA; TC193Q03HA; TC193Q04HA; TC193Q05HA,TCH,"During the last 12 months, participated in professional development"
+교사_관련,전문성_계발_참여,TC020Q01NA; TC020Q02NA; TC020Q03NA; TC020Q04NA; TC020Q05NA; TC020Q06NA,TCH,"During the last 12 months, participated in various professional development activities"
+교사_관련,전문성_계발_의무,TC021Q01NA,TCH,Are you required to take part in professional development activities?
+교사_관련,전문성_계발_주제,TC045Q01NA; TC045Q01NB; TC045Q02NA; TC045Q02NB; TC045Q03NA; TC045Q03NB; TC045Q04NA; TC045Q04NB; TC045Q05NA; TC045Q05NB; TC045Q06NA; TC045Q06NB; TC045Q07NA; TC045Q07NB; TC045Q08NA; TC045Q08NB; TC045Q09NA; TC045Q09NB; TC045Q10NA; TC045Q10NB; TC045Q11NA; TC045Q11NB; TC045Q12NA; TC045Q12NB; TC045Q13NA; TC045Q13NB; TC045Q14NA; TC045Q14NB; TC045Q15NA; TC045Q15NB; TC045Q16HA; TC045Q16HB; TC045Q17HA; TC045Q17HB; TC045Q18HA; TC045Q18HB,TCH,"Included in teacher education, training or other qualification and professional development"
+교사_관련,학습평가_방법,TC054Q01NA; TC054Q02NA; TC054Q03NA; TC054Q04NA; TC054Q05NA; TC054Q06NA; TC054Q07NA,TCH,"Assessing student learning, how often"
+교사_관련,읽기_수업_여부,TC018Q01NA; TC018Q01NB,TCH,Reading-related instruction
+교사_관련,가장_긴_지문,TC164Q01HA,TCH,"<this academic year>, how many pages was the longest piece of text your students had to read"
+교사_관련,디지털_읽기_역량_수업,TC166Q01HA; TC166Q02HA; TC166Q03HA; TC166Q04HA; TC166Q05HA; TC166Q06HA; TC166Q07HA,TCH,"In your lessons, have you ever taught: digital literacy skills"
+교사_관련,교사_디지털_읽기_활동,TC155Q02HA; TC155Q03HA; TC155Q04HA; TC155Q05HA; TC155Q06HA; TC155Q07HA,TCH,"In your lessons, how often do you teach: reading strategies"
+교사_관련,학교_디지털기기_규정,TC184Q01HA,TCH,Does your school have a policy concerning the use of digital devices for teaching?
+교사_관련,교사_책_읽는_방식,TC172Q01HA,TCH,Best describes how you read books
+교사_관련,교사_뉴스_읽는_방식,TC173Q01HA,TCH,Best describes how you read the news
+교사_관련,수업외_업무_독서시간,TC175Q01HA,TCH,About how much time per week do you spend reading for your work out of your classes?
+교사_관련,출생_국가,TC186Q01HA,TCH,Country of birth
+교사_관련,다른_국가_공부,TC188Q01HA,TCH,Studied in a country other than [country of test]
+교사_관련,교사_근무_연수,TC007Q01NA; TC007Q02NA,TCH,How many years of work experience do you have?
+교사_관련,나이,TC002Q01NA,TCH,How old are you?
+교사_관련,교사_자격증_취득,TC014Q01HA; TC015Q01NA; TC018Q01NA; TC018Q01NB,TCH,Teacher qualification and training
+학교_관련,학교크기,SCHSIZE,SCH,School Size (Sum)
+학교_관련,학생_교사_비율,STRATIO,SCH,Student-Teacher ratio
+학교_관련,설립유형,SC013Q01TA; SCHLTYPE,SCH,Is your school a public or a private school? / School Ownership
+학교_관련,교사_전체_수,TOTAT,SCH,Total number of all teachers at school
+학교_관련,정규직_교사_비율,PROATCE,SCH,Index proportion of all teachers fully certified
+학교_관련,학사졸업_교사_비율,PROAT5AB,SCH,Index proportion of all teachers ISCED LEVEL 5A Bachelor
+학교_관련,석사졸업_교사_비율,PROAT5AM,SCH,Index proportion of all teachers ISCED LEVEL 5A Master
+학교_관련,박사졸업_교사_비율,PROAT6,SCH,Index proportion of all teachers ISCED LEVEL 6
+학교_관련,학생_1인당_컴퓨터_수,RATCMP1,SCH,Number of available computers per student at modal grade
+학교_관련,인터넷_연결_컴퓨터_비율,RATCMP2,SCH,Proportion of available computers that are connected to the Internet
+학교_관련,학습도구_부족,EDUSHORT,SCH,Shortage of educational material (WLE)
+학교_관련,학습보조원_부족,STAFFSHORT,SCH,Shortage of educational staff (WLE)
+학교_관련,교과외_활동_제공,CREACTIV,SCH,Creative extra-curricular activities (Sum)
+학교_관련,학생_행동_학습방해,STUBEHA,SCH,Student behaviour hindering learning (WLE)
+학교_관련,교사_행동_학습방해,TEACHBEHA,SCH,Teacher behaviour hindering learning (WLE)
+학교_관련,학교위치,SC001Q01TA,SCH,Which of the following definitions best describes the community in which your school is located?
+학교_관련,학교_선택,SC011Q01TA,SCH,Which of the following statements best describes the schooling available to students in your location?
+학교_관련,교사_수,SC018Q01TA01; SC018Q01TA02,SCH,Teachers in TOTAL: Full-time and Part-time
+학교_관련,학생_중퇴_비율,SC164Q01HA,SCH,"In the last full academic year, what proportion of students in final grade left school without a certificate?"
+학교_관련,입학_사정_고려사항,SC012Q01TA; SC012Q02TA; SC012Q03TA; SC012Q04TA; SC012Q05TA; SC012Q06TA; SC012Q07TA,SCH,Student admission to school criteria
+학교_관련,전문성_계발_연수_참여_비율,SC025Q01NA,SCH,"During the last three months, what percentage of teaching staff attended a programme of professional development?"
+학교_관련,성취도_책무성_활용,SC036Q01TA; SC036Q02TA; SC036Q03NA,SCH,Use of achievement data in school
+학교_관련,질_점검_개선_대책,SC037Q01TA; SC037Q02TA; SC037Q03TA; SC037Q04TA; SC037Q05NA; SC037Q06NA; SC037Q07TA; SC037Q08TA; SC037Q09TA; SC037Q10NA,SCH,Quality assurance at school
+학교_관련,1학년_능력별_편성,SC042Q01TA; SC042Q02TA,SCH,School's policy for <national modal grade for 15-year-olds>: ability grouping
+학교_관련,1학년_학생_특성,SC048Q01NA; SC048Q02NA; SC048Q03NA,SCH,Percentage <national modal grade for 15-year-olds>: student characteristics
+학교_관련,학생_학습_지원,SC052Q01NA; SC052Q02NA; SC052Q03HA,SCH,"For 15-year old students, school provides study help"
+학교_관련,학부모_참여_비율,SC064Q01TA; SC064Q02TA; SC064Q03TA; SC064Q04NA,SCH,Proportion of parents participating in school activities
+학교_관련,모국어_아닌_학생_평등정책,SC150Q01IA; SC150Q02IA; SC150Q03IA; SC150Q04IA; SC150Q05IA,SCH,School's equity-oriented policies
+학교_관련,정규수업외_추가_국어수업,SC152Q01HA,SCH,Does your school offer additional <test language> lessons during the usual school hours?
+학교_관련,국어수업_추가_목적,SC160Q01WA,SCH,What is the purpose of these additional <test language> lessons?
+학교_관련,학생_평가결과_사용,SC154Q01HA; SC154Q02WA; SC154Q03WA; SC154Q04WA; SC154Q05WA; SC154Q06WA; SC154Q07WA; SC154Q08WA; SC154Q09HA; SC154Q10WA; SC154Q11HA,SCH,School's use of assessments of students
+학교_관련,ICT_도구_준비_수준,SC155Q01HA; SC155Q02HA; SC155Q03HA; SC155Q04HA; SC155Q05HA; SC155Q06HA; SC155Q07HA; SC155Q08HA; SC155Q09HA; SC155Q10HA; SC155Q11HA,SCH,School's capacity using digital devices
+학교_관련,ICT_활용_전략,SC156Q01HA; SC156Q02HA; SC156Q03HA; SC156Q04HA; SC156Q05HA; SC156Q06HA; SC156Q07HA; SC156Q08HA,SCH,At school: ICT-related policies and programs
+학교_관련,해외학교_교사_교환,SC159Q01HA,SCH,Does your school host visiting teachers from other countries?
+학교_관련,진로지도_담당자,SC161Q01SA; SC161Q02SA; SC161Q03SA; SC161Q04SA; SC161Q05SA,SCH,Main responsibility for career guidance at school
+학교_관련,진로지도_방법,SC162Q01SA,SCH,"If career guidance is available at your school, which of the statements below best describes the situation"
