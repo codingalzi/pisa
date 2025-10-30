@@ -1,0 +1,197 @@
+변수,위치,레이블
+CNTRYID,1,Country Identifier
+CNT,2,Country code 3-character
+CNTSCHID,3,Intl. School ID
+CYC,4,PISA Assessment Cycle (2 digits + 2 character Assessment type - MS/FT)
+NatCen,5,National Centre 6-digit Code
+Region,6,Region
+STRATUM,7,Stratum ID 7-character (cnt + region ID + original stratum ID)
+SUBNATIO,8,Adjudicated sub-region code 7-digit code (3-digit country code + region ID + stratum ID)
+OECD,9,OECD country
+ADMINMODE,10,Mode of Respondent
+LANGTEST,11,Language of Questionnaire/Assessment
+SC001Q01TA,12,Which of the following definitions best describes the community in which your school is located?
+SC013Q01TA,13,Is your school a public or a private school?
+SC016Q01TA,14,Percentage of total funding for school year from: Government
+SC016Q02TA,15,Percentage of total funding for school year from: Student fees or school charges paid by parents
+SC016Q03TA,16,"Percentage of total funding for school year from: Benefactors, donations, bequests, sponsorships, parent fundraising"
+SC016Q04TA,17,Percentage of total funding for school year from: Other
+SC017Q01NA,18,School's instruction hindered by: A lack of teaching staff.
+SC017Q02NA,19,School's instruction hindered by: Inadequate or poorly qualified teaching staff.
+SC017Q03NA,20,School's instruction hindered by: A lack of assisting staff.
+SC017Q04NA,21,School's instruction hindered by: Inadequate or poorly qualified assisting staff.
+SC017Q05NA,22,School's instruction hindered by: A lack of educational material [...]
+SC017Q06NA,23,School's instruction hindered by: Inadequate or poor quality educational material [...]
+SC017Q07NA,24,School's instruction hindered by: A lack of physical infrastructure [...]
+SC017Q08NA,25,School's instruction hindered by: Inadequate or poor quality physical infrastructure [...]
+SC161Q01SA,26,"Main responsibility for career guidance at school: Not applicable, career guidance is not available in this school"
+SC161Q02SA,27,Main responsibility for career guidance at school: All teachers share the responsibility for career guidance
+SC161Q03SA,28,Main responsibility for career guidance at school: Specific teachers have the main responsibility for career guidance
+SC161Q04SA,29,Main responsibility for career guidance at school: We have [...] career guidance counsellors employed at school
+SC161Q05SA,30,Main responsibility for career guidance at school: We have [...] career guidance counsellors who regularly visit [...]
+SC162Q01SA,31,"If career guidance is available at your school, which of the statements below best describes the situation for [...]"
+SC155Q01HA,32,School's capacity using digital devices: The number of digital devices connected to the Internet is sufficient
+SC155Q02HA,33,School's capacity using digital devices: The school's Internet bandwidth or speed is sufficient
+SC155Q03HA,34,School's capacity using digital devices: The number of digital devices for instruction is sufficient
+SC155Q04HA,35,School's capacity using digital devices: Digital devices [...] are sufficiently powerful in terms of computing capacity
+SC155Q05HA,36,School's capacity using digital devices: The availability of adequate software is sufficient
+SC155Q06HA,37,School's capacity using digital devices: Teachers have the [...] skills to integrate digital devices in instruction
+SC155Q07HA,38,School's capacity using digital devices: Teachers have sufficient time to prepare lessons integrating digital devices
+SC155Q08HA,39,School's capacity using digital devices: Effective professional resources for teachers to learn how to use digital [...]
+SC155Q09HA,40,School's capacity using digital devices: An effective online learning support platform is available
+SC155Q10HA,41,School's capacity using digital devices: Teachers are provided with incentives to integrate digital devices in [...]
+SC155Q11HA,42,School's capacity using digital devices: The school has sufficient qualified technical assistant staff
+SC156Q01HA,43,At school: Its own written statement about the use of digital devices
+SC156Q02HA,44,At school: Its own written statement specifically about the use of digital devices for pedagogical purposes
+SC156Q03HA,45,At school: A programme to use digital devices for teaching and learning in specific subjects
+SC156Q04HA,46,At school: Regular discussions with teaching staff about the use of digital devices for pedagogical purposes
+SC156Q05HA,47,At school: A specific programme to prepare students for responsible Internet behaviour
+SC156Q06HA,48,"At school: A specific policy about using Social Networks (<Facebook>, etc.) in teaching and learning"
+SC156Q07HA,49,At school: A specific programme to promote collaboration on the use of digital devices among teachers
+SC156Q08HA,50,"At school: Scheduled time for teachers to meet to share, evaluate or develop instructional materials and [...]"
+SC011Q01TA,51,Which of the following statements best describes the schooling available to students in your location?
+SC012Q01TA,52,Student admission to school: Student's record of academic performance (including placement tests)
+SC012Q02TA,53,Student admission to school: Recommendation of feeder schools
+SC012Q03TA,54,Student admission to school: Parents' endorsement of the instructional or religious philosophy of the school
+SC012Q04TA,55,Student admission to school: Whether the student requires or is interested in a special programme
+SC012Q05TA,56,Student admission to school: Preference given to family members of current or former students
+SC012Q06TA,57,Student admission to school: Residence in a particular area
+SC012Q07TA,58,Student admission to school: Other
+SC042Q01TA,59,School's policy for <national modal grade for 15-year-olds>: Students are grouped by ability into different classes.
+SC042Q02TA,60,School's policy for <national modal grade for 15-year-olds>: Students are grouped by ability within their classes.
+SC154Q01HA,61,School's use of assessments of students: To guide students' learning
+SC154Q02WA,62,School's use of assessments of students: To inform parents about their child's progress
+SC154Q03WA,63,School's use of assessments of students: To make decisions about students' retention or promotion
+SC154Q04WA,64,School's use of assessments of students: To group students for instructional purposes
+SC154Q05WA,65,School's use of assessments of students: To compare the school to <district or national> performance
+SC154Q06WA,66,School's use of assessments of students: To monitor the school’s progress from year to year
+SC154Q07WA,67,School's use of assessments of students: To make judgements about teachers' effectiveness
+SC154Q08WA,68,School's use of assessments of students: To identify aspects of instruction or the curriculum that could be improved
+SC154Q09HA,69,School's use of assessments of students: To adapt teaching to the students' needs
+SC154Q10WA,70,School's use of assessments of students: To compare the school with other schools
+SC154Q11HA,71,School's use of assessments of students: To award certificates to students
+SC036Q01TA,72,Use of achievement data in school: Achievement data are posted publicly (e.g. in the media)
+SC036Q02TA,73,Use of achievement data in school: Achievement data are tracked over time by an administrative authority
+SC036Q03NA,74,Use of achievement data in school: Achievement data are provided directly to parents
+SC037Q01TA,75,Quality assurance at school: Internal evaluation/Self-evaluation
+SC037Q02TA,76,Quality assurance at school: External evaluation
+SC037Q03TA,77,Quality assurance at school: Written specification of the school's curricular profile and educational goals
+SC037Q04TA,78,Quality assurance at school: Written specification of student performance standards
+SC037Q05NA,79,Quality assurance at school: Systematic recording of data such as [...] attendance and professional development
+SC037Q06NA,80,Quality assurance at school: Systematic recording of student test results and graduation rates
+SC037Q07TA,81,"Quality assurance at school: Seeking written feedback from students (e.g. regarding lessons, teachers or resources)"
+SC037Q08TA,82,Quality assurance at school: Teacher mentoring
+SC037Q09TA,83,Quality assurance at school: Regular consultation aimed at school improvement [...] over a period of at least six months
+SC037Q10NA,84,Quality assurance at school: Implementation of a standardised policy for reading subjects [...]
+SC165Q01HA,85,Teachers' practices: [...] students learn about the histories of diverse cultural groups that live in <country of test>.
+SC165Q02HA,86,Teachers' practices: [...] students learn about the histories of diverse cultural groups that live in other countries.
+SC165Q03HA,87,Teachers' practices: [...] students learn about the cultures [...] of [...] groups that live in <country of test>
+SC165Q04HA,88,Teachers' practices: [...] students learn about different cultural perspectives on historical and social events.
+SC165Q05HA,89,Teachers' practices: Our school supports activities that encourage students’ expression of diverse identities [...]
+SC165Q06HA,90,Teachers' practices: Our school offers an exchange programme with schools in other countries.
+SC165Q07HA,91,Teachers' practices: Our school organises multicultural events (e.g. cultural diversity day).
+SC165Q08HA,92,"Teachers' practices: In our school, we celebrate festivities from other cultures."
+SC165Q09HA,93,"Teachers' practices: In our school, students are encouraged to communicate with people from other cultures via [...]"
+SC165Q10HA,94,Teachers' practices: Our school adopts different approaches to educate students about cultural differences [...]
+SC166Q02HA,95,Opinion shared by teaching staff: It is important for students to learn that people from other cultures can have [...]
+SC166Q03HA,96,Opinion shared by teaching staff: Respecting other cultures is something that students should learn as early as possible
+SC166Q05HA,97,"Opinion shared by teaching staff: In the classroom, it is important that students of different origins recognise [...]"
+SC166Q06HA,98,"Opinion shared by teaching staff: When there are conflicts between students of different origins, they should be [...]"
+SC167Q01HA,99,Curriculum for the following in <national modal grade for 15-year-olds>: Communicating with people from different [...]
+SC167Q02HA,100,Curriculum for the following in <national modal grade for 15-year-olds>: Knowledge of different cultures
+SC167Q03HA,101,Curriculum for the following in <national modal grade for 15-year-olds>: Openness to intercultural experiences
+SC167Q04HA,102,Curriculum for the following in <national modal grade for 15-year-olds>: Respect for cultural diversity
+SC167Q05HA,103,Curriculum for the following in <national modal grade for 15-year-olds>: Foreign languages
+SC167Q06HA,104,Curriculum for the following in <national modal grade for 15-year-olds>: Critical thinking skills
+SC158Q01HA,105,Formal curriculum in <national modal grade for 15-year-olds>: Climate change and global warming
+SC158Q02HA,106,Formal curriculum in <national modal grade for 15-year-olds>: Global health (e.g. epidemics)
+SC158Q04HA,107,Formal curriculum in <national modal grade for 15-year-olds>: Migration (movement of people)
+SC158Q07HA,108,Formal curriculum in <national modal grade for 15-year-olds>: International conflicts
+SC158Q08HA,109,Formal curriculum in <national modal grade for 15-year-olds>: Hunger or malnutrition in different parts of the world
+SC158Q09HA,110,Formal curriculum in <national modal grade for 15-year-olds>: Causes of poverty
+SC158Q12HA,111,Formal curriculum in <national modal grade for 15-year-olds>: Equality between men and women in [...] the world
+SC061Q01TA,112,Extent to which student learning is hindered by: Student truancy
+SC061Q02TA,113,Extent to which student learning is hindered by: Students skipping classes
+SC061Q03TA,114,Extent to which student learning is hindered by: Students lacking respect for teachers
+SC061Q04TA,115,Extent to which student learning is hindered by: Student use of alcohol or illegal drugs
+SC061Q05TA,116,Extent to which student learning is hindered by: Students intimidating or bullying other students
+SC061Q11HA,117,Extent to which student learning is hindered by: Students not being attentive
+SC061Q06TA,118,Extent to which student learning is hindered by: Teachers not meeting individual students' needs
+SC061Q07TA,119,Extent to which student learning is hindered by: Teacher absenteeism
+SC061Q08TA,120,Extent to which student learning is hindered by: Staff resisting change
+SC061Q09TA,121,Extent to which student learning is hindered by: Teachers being too strict with students
+SC061Q10TA,122,Extent to which student learning is hindered by: Teachers not being well prepared for classes
+SC002Q01TA,123,"As of <February 1, 2018>, what was the total school enrolment (number of students)? Number of boys"
+SC002Q02TA,124,"As of <February 1, 2018>, what was the total school enrolment (number of students)? Number of girls"
+SC048Q01NA,125,Percentage <national modal grade for 15-year-olds>: Students whose <heritage language> is different from <test language>
+SC048Q02NA,126,Percentage <national modal grade for 15-year-olds>: Students with special needs
+SC048Q03NA,127,Percentage <national modal grade for 15-year-olds>: Students from socioeconomically disadvantaged homes
+SC004Q01TA,128,"At your school, what is the total number of students in the <national modal grade for 15-year-olds>?"
+SC004Q02TA,129,"Approximately, how many computers are available for these students for educational purposes?"
+SC004Q03TA,130,"Approximately, how many of these computers are connected to Internet/World Wide Web?"
+SC004Q04NA,131,"Approximately, how many of these computers are portable (e.g. laptop, tablet)?"
+SC004Q05NA,132,"Approximately, how many interactive Whiteboards are available in the school altogether?"
+SC004Q06NA,133,"Approximately, how many data projectors are available in the school altogether?"
+SC004Q07NA,134,"Approximately, how many computers with Internet connection are available for teachers in your school?"
+SC018Q01TA01,135,Teachers in TOTAL: Full-time
+SC018Q01TA02,136,Teachers in TOTAL: Part-time
+SC018Q02TA01,137,Teachers <fully certified> by <the appropriate authority>: Full-time
+SC018Q02TA02,138,Teachers <fully certified> by <the appropriate authority>: Part-time
+SC018Q05NA01,139,Teachers with an <ISCED Level 5A Bachelor degree> qualification: Full-time
+SC018Q05NA02,140,Teachers with an <ISCED Level 5A Bachelor degree> qualification: Part-time
+SC018Q06NA01,141,Teachers with an <ISCED Level 5A Master's degree> qualification: Full-time
+SC018Q06NA02,142,Teachers with an <ISCED Level 5A Master's degree> qualification: Part-time
+SC018Q07NA01,143,Teachers with an <ISCED Level 6> qualification: Full-time
+SC018Q07NA02,144,Teachers with an <ISCED Level 6> qualification: Part-time
+SC025Q01NA,145,"During the last three months, what percentage of teaching staff [...] attended a programme of professional development?"
+SC159Q01HA,146,Does your school host visiting teachers from other countries?
+SC003Q01TA,147,What is the average size of <test language> classes in <national modal grade for 15-year-olds> in your school?
+SC053Q01TA,148,"<This academic year>, activities offered to <national modal grade for 15-year-olds>: Band, orchestra or choir"
+SC053Q02TA,149,"<This academic year>, activities offered to <national modal grade for 15-year-olds>: School play or school musical"
+SC053Q03TA,150,"<This academic year>, activities offered to <national modal grade for 15-year-olds>: School yearbook, newspaper [...]"
+SC053Q04TA,151,"<This academic year>, activities offered to <national modal grade for 15-year-olds>: Volunteering [...]"
+SC053Q12IA,152,"<This academic year>, activities offered to <national modal grade for 15-year-olds>: Book club"
+SC053Q13IA,153,"<This academic year>, activities offered to <national modal grade for 15-year-olds>: Debating club or debating [...]"
+SC053Q09TA,154,"<This academic year>, activities offered to <national modal grade for 15-year-olds>: Art club or art activities"
+SC053Q10TA,155,"<This academic year>, activities offered to <national modal grade for 15-year-olds>: Sporting team or sporting [...]"
+SC053Q14IA,156,"<This academic year>, activities offered to <national modal grade for 15-year-olds>: Lectures and/or seminars [...]"
+SC053Q15IA,157,"<This academic year>, activities offered to <national modal grade for 15-year-olds>: Collaboration with local libraries"
+SC053Q16IA,158,"<This academic year>, activities offered to <national modal grade for 15-year-olds>: Collaboration with local newspapers"
+SC053D11TA,159,"<This academic year>,follow. activities/school offers<national modal grade for 15-year-olds>? <country specific item>"
+SC150Q01IA,160,School's equity-oriented policies: These students attend regular classes and receive additional periods of [...]
+SC150Q02IA,161,"School's equity-oriented policies: Before transferring to regular classes, [...] preparatory programme aimed at [...]"
+SC150Q03IA,162,"School's equity-oriented policies: Before transferring to regular classes, [...] instruction in school subjects [...]"
+SC150Q04IA,163,School's equity-oriented policies: These students receive [...] amounts of instruction in their <heritage language>
+SC150Q05IA,164,School’s equity-oriented policies: Class size is reduced to cater to the special needs of these students.
+SC164Q01HA,165,"In the last full academic year, what proportion of students in [...] final grade left school without a <certificate>?"
+SC064Q01TA,166,Proportion of parents: Discussed their child's progress with a teacher on their own initiative
+SC064Q02TA,167,Proportion of parents: Discussed their child's progress on the initiative of one of their child's teachers
+SC064Q03TA,168,Proportion of parents: Participated in local school government (e.g. parent council or school management committee)
+SC064Q04NA,169,Proportion of parents: Volunteered in physical or extra-curricular activities [...]
+SC152Q01HA,170,Does your school offer additional <test language> lessons [...] during the usual school hours?
+SC160Q01WA,171,What is the purpose of these additional <test language> lessons?
+SC052Q01NA,172,"For 15-year old students, school provides study help: Room(s) where the students can do their homework"
+SC052Q02NA,173,"For 15-year old students, school provides study help: Staff help with homework"
+SC052Q03HA,174,"For 15-year old students, school provides study help: Peer-to-peer tutoring"
+PRIVATESCH,175,"School type derived from sampling information; values = public, private, missing"
+SCHLTYPE,176,School Ownership
+STRATIO,177,Student-Teacher ratio
+SCHSIZE,178,School Size (Sum)
+RATCMP1,179,Number of available computers per student at modal grade
+RATCMP2,180,Proportion of available computers that are connected to the Internet
+TOTAT,181,Total number of all teachers at school
+PROATCE,182,Index proportion of all teachers fully certified
+PROAT5AB,183,Index proportion of all teachers ISCED LEVEL 5A Bachelor
+PROAT5AM,184,Index proportion of all teachers ISCED LEVEL 5A Master
+PROAT6,185,Index proportion of all teachers ISCED LEVEL 6
+CLSIZE,186,Class Size
+CREACTIV,187,Creative extra-curricular activities (Sum)
+EDUSHORT,188,Shortage of educational material (WLE)
+STAFFSHORT,189,Shortage of educational staff (WLE)
+STUBEHA,190,Student behaviour hindering learning (WLE)
+TEACHBEHA,191,Teacher behaviour hindering learning (WLE)
+SCMCEG,192,School principal's view on teachers' multicultural and egalitarian beliefs (WLE)
+W_SCHGRNRABWT,193,GRADE NONRESPONSE ADJUSTED SCHOOL BASE WEIGHT
+W_FSTUWT_SCH_SUM,194,Sum of W_FSTUWT
+SENWT,195,Senate Weight (sum of 5000 per country)
+VER_DAT,196,Date of the database creation
