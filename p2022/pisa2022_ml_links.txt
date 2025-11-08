@@ -1,0 +1,107 @@
+PISA 2022 – Machine Learning and Related References (Links)
+
+OECD PISA 2022 Results (primary sources)
+- PISA 2022 Results landing: https://www.oecd.org/pisa/publications/pisa-2022-results/
+- Volume I: The State of Learning and Equity in Education: https://doi.org/10.1787/53f23881-en
+- Volume II: Learning During - and From - Disruption: https://doi.org/10.1787/a97db61c-en
+- Insights and Interpretations (PDF): https://www.oecd.org/content/dam/oecd/en/about/programmes/edu/pisa/publications/PISA%202022%20Insights%20and%20Interpretations.pdf
+- Volume III: Creative Minds, Creative Schools: https://doi.org/10.1787/765ee8c2-en
+- Volume IV: How Financially Smart Are Students?: https://doi.org/10.1787/5a849c2-en
+
+arXiv – PISA 2022 with Machine Learning (Education/Economics focus)
+- Private and public school efficiency gaps in Latin America – A combined DEA and machine learning approach based on PISA 2022: https://arxiv.org/abs/2509.25353
+- Determinants of Latin American students’ academic resilience – Insights based on PISA 2022 using an explainable machine learning approach: https://arxiv.org/abs/2509.24830
+- Identifying the post-pandemic determinants of low performing students in Latin America through interpretable ML (SHAP Values) – Insights from PISA 2022: https://arxiv.org/abs/2509.24508
+
+OECD – PISA 2022 National Reports (selection)
+- Australia – Volume I: https://research.acer.edu.au/ozpisa/55/
+- Australia – PISA in Brief 2022: https://research.acer.edu.au/ozpisa/56/
+- Canada – National report (EN): https://www.cmec.ca/Publications/Lists/Publications/Attachments/438/PISA-2022_Canadian_Report_EN.pdf
+- Canada – National report (FR): https://cmec.ca/Publications/Lists/Publications/Attachments/438/PISA-2022_Canadian_Report_FR.pdf
+- Canada – Highlights (EN): https://cmec.ca/docs/pisa2022/PISA-2022_Highlights_FINAL_EN.pdf
+- Canada – Highlights (FR): https://cmec.ca/docs/pisa2022/PISA-2022_Highlights_FINAL_FR.pdf
+- Chile – National report (ES): https://s3.amazonaws.com/archivos.agenciaeducacion.cl/PISA+2022+Entrega+de+Resultados+final+final.pptx.pdf
+- Czechia – National report (CS): https://www.csicr.cz/cz/Aktuality/Narodni-zprava-PISA-2022
+- Denmark – National report (DA): https://www.vive.dk/da/nyheder-og-debat/2023/nedgang-i-pisa-resultater-i-matematik-og-laesning/
+- Finland – National report (FI): http://urn.fi/URN:ISBN:978-952-263-949-3
+- Finland – Brochure (FI): http://urn.fi/URN:NBN:fi-fe20231204151292
+- France – National report page (FR): https://www.education.gouv.fr/pisa-programme-international-pour-le-suivi-des-acquis-des-eleves-41558
+- France – Note d'information (FR): https://www.education.gouv.fr/pisa-2022-la-france-ne-fait-pas-exception-la-baisse-generalisee-des-performances-en-culture-380205
+- Germany – National report (DE): https://www.pisa.tum.de/pisa/pisa-2022/
+- Hungary – National report (HU): https://www.oktatas.hu/pub_bin/dload/kozoktatas/nemzetkozi_meresek/pisa/PISA2022.pdf
+- Ireland – National report (EN): https://www.erc.ie/wp-content/uploads/2023/12/B23617-Education-in-a-Dynamic-World-Report-online-1.pdf
+- Ireland – Non-response bias analysis: https://www.erc.ie/wp-content/uploads/2023/12/NRBA-IRL_Final.pdf
+- Italy – National report page (IT): https://invalsi-areaprove.cineca.it/index.php?get=static&pag=ocse%20pisa%202022%20-%20risultati
+- Japan – National report page (JA): https://www.nier.go.jp/kokusai/pisa
+- Latvia – National report (LV): https://www.izm.gov.lv/lv/jaunums/pisa-2022-latvijas-skoleni-ir-kapinajusi-sniegumu-dabaszinatnes
+- Netherlands – Key findings (NL, PDF): https://ris.utwente.nl/ws/portalfiles/portal/330860617/Resultaten_PISA-2022_in_vogelvlucht.pdf
+- New Zealand – National report page (EN): https://www.educationcounts.govt.nz/publications/series/PISA/pisa-2022
+- Norway – National report page (NO): https://www.udir.no/tall-og-forskning/finn-forskning/rapporter/2023/betydelig-pisa-nedgang/
+- Palestinian Authority – National report (EN): https://www.oecd.org/content/dam/oecd/en/about/programmes/edu/pisa/publications/national-reports/pisa-2022/Palestinian-Authority-PISA-2022-National-Report.pdf
+- Peru – National report (ES): https://www.oecd.org/content/dam/oecd/en/about/programmes/edu/pisa/publications/national-reports/pisa-2022/Informe%20Nacional%20PISA_2022_PER.pdf
+- Poland – National report (PL): https://pisa.ibe.edu.pl/wp-content/uploads/2025/07/PISA-2022_14_07_2025.pdf
+- Poland – Key findings (PL): https://pisa.ibe.edu.pl/wp-content/uploads/2025/07/PISA2022_najwazniejsze_wyniki_badania_15_07_2025.pdf
+- Poland – Creative thinking report (PL): https://pisa.ibe.edu.pl/wp-content/uploads/2024/06/PISA-2022-Myslenie-kreatywne.pdf
+- Poland – Financial literacy report (PL): https://pisa.ibe.edu.pl/wp-content/uploads/2025/02/Mlodziez-w-swiecie-pieniedzy_RAPORT-PISA-2022-26_02_2025.pdf
+- Portugal – National report (PT): https://iave.pt/wp-content/uploads/2019/08/Relatorio-Final.pdf
+- Portugal – Brochure (PT): https://iave.pt/wp-content/uploads/2019/08/Brochura_final_2022.pdf
+- Portugal – Thematic summary (Mathematics, PT): https://iave.pt/wp-content/uploads/2019/08/PISA22ResultadosMatematica-FINAL.pdf
+- Portugal – Thematic summary (Reading, PT): https://iave.pt/wp-content/uploads/2019/08/PISA2022_ResultadosLeitura-FINAL.pdf
+- Portugal – Thematic summary (Science, PT): https://iave.pt/wp-content/uploads/2019/08/PISA2022_ResultadosCiencias-FINAL.pdf
+- Slovenia – National report (SL): https://www.pei.si/wp-content/uploads/2023/12/Porocilo_PISA22_FINAL.pdf
+- Spain – National report page (ES): https://www.educacionfpydeportes.gob.es/inee/evaluaciones-internacionales/pisa
+- Switzerland – National report (DE): https://www.pisa-schweiz.ch/PISA2022-DieSchweizimFokus.pdf
+- Switzerland – National report (FR): https://www.pisa-suisse.ch/PISA2022-LaSuissesouslaloupe.pdf
+- Switzerland – National report (IT): https://www.pisa-svizzera.ch/PISA2022-LaSvizzerainevidenza.pdf
+- Romania – National report (RO): https://www.ise.ro/wp-content/uploads/2023/12/PISA_Raport_2022_08-12-2023.pdf
+- United Kingdom – England: https://www.gov.uk/government/publications/pisa-2022-national-report-for-england
+- United Kingdom – Scotland: https://www.gov.scot/publications/programme-international-student-assessment-pisa-2022-highlights-scotlands-results
+- United Kingdom – Wales: https://www.gov.wales/achievement-15-year-olds-program-international-student-assessment-pisa-national-report-2022
+- United Kingdom – Northern Ireland: https://www.education-ni.gov.uk/publications/pisa-2022-national-report-northern-ireland
+- United States – National report page (EN): https://nces.ed.gov/surveys/pisa/pisa2022
+- Ukraine – Full report (UK): https://pisa.testportal.gov.ua/wp-content/uploads/2023/12/PISA-2022_Naczionalnyj-zvit_povnyj.pdf
+- Ukraine – Short report (UK): https://pisa.testportal.gov.ua/wp-content/uploads/2023/12/PISA-2022_Naczionalnyj-zvit_korotkyj.pdf
+- Ukraine – Short report (EN): https://pisa.testportal.gov.ua/wp-content/uploads/2023/12/PISA-2022-Short-report_eng.pdf
+
+Related events (launches/presentations)
+- Chile: https://www.youtube.com/watch?v=hDRi-NjeJDY&t=3777s
+- Finland: https://www.youtube.com/watch?v=DlSY7GomQuU
+- Italy: https://www.youtube.com/watch?v=qyZaWCCdnAc
+- Latvia (Facebook): https://www.facebook.com/Izglitibas.ministrija/videos/starptautisk%C4%81s-skol%C4%93nu-nov%C4%93rt%C4%93%C5%A1anas-programmas-pisa-2022-pirmo-rezult%C4%81tu-pazi%C5%86o%C5%A1/3598067327189305
+- Slovenia: https://www.youtube.com/watch?v=L1FxFi2QOHg
+- Spain: https://www.youtube.com/watch?v=Xg7V9n5tbxs
+- United Kingdom: https://policyexchange.org.uk/events/launch-of-the-uk-pisa-2022-results/
+- United Kingdom (SERA webinar): https://www.youtube.com/watch?v=P1KRpjQRolc
+
+
+PISA 2018 – Machine Learning and Related References (Links)
+
+Peer-reviewed and preprint articles applying ML to PISA 2018 data
+- Explainable AI for Predicting and Understanding Mathematics Achievement: A Cross-National Analysis of PISA 2018 (arXiv preprint): https://arxiv.org/abs/2508.16747
+- What drives the performance of Chinese urban and rural secondary schools: A machine learning approach using PISA 2018 (Cities, Elsevier): https://www.sciencedirect.com/science/article/pii/S0264275122000488
+- Predicting science achievement scores with machine learning algorithms: A case study of OECD PISA 2015–2018 data (Neural Computing and Applications, Springer): https://link.springer.com/article/10.1007/s00521-023-08901-6
+- Combining statistical and machine learning methods to identify predictors of Brazilian students' proficiency in PISA 2018 (Journal of Psychoeducational Assessment, SAGE): https://journals.sagepub.com/doi/abs/10.1177/07342829241262861
+- Using machine learning to predict UK and Japanese secondary students' life satisfaction in PISA 2018 (British Journal of Educational Psychology, Wiley): https://bpspsychub.onlinelibrary.wiley.com/doi/abs/10.1111/bjep.12657
+- School effectiveness and high reading achievement of Spanish students in PISA 2018: a machine learning approach (Educación XX1, open PDF): https://www.redalyc.org/journal/706/70681678009/70681678009.pdf
+- Educational improvement through machine learning: Strategic models for better PISA scores (PLOS ONE; uses PISA 2018): https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0326121
+- Student well-being and mathematical literacy performance in PISA 2018: a machine-learning approach (Educational Psychology, Taylor & Francis): https://www.tandfonline.com/doi/abs/10.1080/01443410.2024.2359104
+- An exploration of factors linked to academic performance in PISA 2018 through data mining techniques (Frontiers in Psychology, open access): https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.575167/full
+
+Data preprocessing–focused papers (PISA 2018 emphasis)
+- Frontiers (2020) – Exploration via data mining: often details missing value handling, categorical encoding, feature importance extraction.
+	https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2020.575167/full
+- PLOS ONE (2025) – Strategic ML models: likely enumerates feature selection pipeline, algorithm comparison setup, potential treatment (or omission) of plausible values.
+	https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0326121
+- Educación XX1 (2024) – High reading achievement ML approach: may describe high performer class definition, imbalance handling (e.g., SMOTE or sampling), school vs student variable merging.
+	https://www.redalyc.org/journal/706/70681678009/70681678009.pdf
+- Neural Computing & Applications (2023) – Science achievement prediction: cross-algorithm comparison suggests standardized preprocessing pipeline (encoding, scaling, train/test split) + hyperparameter tuning protocol.
+	https://link.springer.com/article/10.1007/s00521-023-08901-6
+- Cities (2022) – Urban vs rural school performance: likely includes aggregation rules from student-level to school-level, exclusion criteria for sparse schools, handling of socioeconomic/context indicators.
+	https://www.sciencedirect.com/science/article/pii/S0264275122000488
+- Journal of Psychoeducational Assessment (2024) – Brazilian proficiency predictors: mixed statistical + ML approaches often outline variable selection (filter vs wrapper), multicollinearity checks.
+	https://journals.sagepub.com/doi/abs/10.1177/07342829241262861
+- British Journal of Educational Psychology (2024) – Life satisfaction prediction: subjective well-being scale construction, potential composite score derivation, distribution skew handling.
+	https://bpspsychub.onlinelibrary.wiley.com/doi/abs/10.1111/bjep.12657
+- Educational Psychology (2024) – Well-being & math literacy: integration of psychosocial variables, potential normalization or z-score transformations, feature set refinement.
+	https://www.tandfonline.com/doi/abs/10.1080/01443410.2024.2359104
+- 추가 검토 포인트: Plausible Values(복수 성취 점수) 사용 여부, sampling weight 적용 여부, 다수준 구조(학교/학생) 처리 방식 명시 여부.
