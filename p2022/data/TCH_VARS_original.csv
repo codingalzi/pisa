@@ -1,0 +1,527 @@
+﻿변수,설명,측도,결측값
+CNT,Country code 3-character,명목(N),없음
+CNTTCHID,Intl. Teacher ID,명목(N),없음
+TCHTYPE,Teacher Type,명목(N),"7, 8, 9"
+TC001Q01NA,Are you female or male?,명목(N),95 - 99
+TC002Q01NA,How old are you?,척도(S),95 - 99
+TC211Q01JA,What is your employment status as a teacher at this school?,명목(N),95 - 99
+TC261Q02JA,"What is your current employment status as a teacher, in terms of working hours: All my teaching employments together",명목(N),95 - 99
+TC007Q01NA,How many years of work experience do you have: Year(s) working as a teacher at this school,척도(S),95 - 99
+TC007Q02NA,How many years of work experience do you have: Year(s) working as a teacher in total,척도(S),95 - 99
+TC212Q01JA,"This school year, do you teach the following [ISCED levels]: [ISCED 2]",명목(N),95 - 99
+TC212Q02JA,"This school year, do you teach the following [ISCED levels]: [ISCED 3]",명목(N),95 - 99
+TC213Q01JA,Do you currently work as a teacher of [national modal grade for 15-year-olds] at another school?,명목(N),95 - 99
+TC214Q01JA,Please indicate at how many other schools you currently work as a teacher of [national modal grade for 15-year-olds].,명목(N),95 - 99
+TC215Q01JA,"During most recent complete calendar week, approx. how many hours spent on tasks related to your job at this school?",명목(N),99995 - 99999
+TC216Q01JA,Hours spent: Teaching,명목(N),995 - 999
+TC216Q02JA,Hours spent: Individual planning or preparation of lessons either at school or out of school,명목(N),995 - 999
+TC216Q03JA,Hours spent: Team work and dialogue with colleagues within this school,명목(N),995 - 999
+TC216Q04JA,Hours spent: Marking/correcting of student work,명목(N),995 - 999
+TC216Q05JA,"Hours spent: Counselling students (including student supervision, mentoring, virtual counselling, career guidance and behaviour guidance)",명목(N),995 - 999
+TC216Q06JA,"Hours spent: General administrative work (including communication, paperwork and other clerical duties)",명목(N),995 - 999
+TC216Q07JA,Hours spent: Communication and co-operation with parents or guardians,명목(N),995 - 999
+TC216Q08JA,Hours spent: Engaging in extracurricular activities (e.g. sports and cultural activities after school),명목(N),995 - 999
+TC217Q01NA,"This school year, do you teach mathematics to students in [national modal grade for 15-year-olds]?",명목(N),95 - 99
+TC218Q01JA,"Across all of the classes you are teaching, what proportion of your students are students with [special needs]?",명목(N),95 - 99
+TC014Q01HA,Did you complete a teacher education or training programme?,명목(N),95 - 99
+TC015Q01NA,How did you receive your initial teaching qualifications?,명목(N),95 - 99
+TC018Q01NA,"Reading, writing and literature: Included in my teacher education or training programme or other professional qualification",명목(N),"5, 6, 7, 8, 9"
+TC018Q01NB,"Reading, writing and literature: I teach it to the [national modal grade for 15-year-olds] in the current school year",명목(N),"5, 6, 7, 8, 9"
+TC018Q02NA,Mathematics: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC018Q02NB,Mathematics: I teach it to the [national modal grade for 15-year-olds] in the current school year,명목(N),"5, 6, 7, 8, 9"
+TC018Q03NA,Science: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC018Q03NB,Science: I teach it to the [national modal grade for 15-year-olds] in the current school year,명목(N),"5, 6, 7, 8, 9"
+TC018Q04NA,Technology: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC018Q04NB,Technology: I teach it to the [national modal grade for 15-year-olds] in the current school year,명목(N),"5, 6, 7, 8, 9"
+TC018Q05NA,Social studies: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC018Q05NB,Social studies: I teach it to the [national modal grade for 15-year-olds] in the current school year,명목(N),"5, 6, 7, 8, 9"
+TC018Q06NA,Modern foreign languages: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC018Q06NB,Modern foreign languages: I teach it to the [national modal grade for 15-year-olds] in the current school year,명목(N),"5, 6, 7, 8, 9"
+TC018Q07NA,Ancient languages (e.g. Latin): Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC018Q07NB,Ancient languages (e.g. Latin): I teach it to the [national modal grade for 15-year-olds] in the current school year,명목(N),"5, 6, 7, 8, 9"
+TC018Q08NA,Arts: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC018Q08NB,Arts: I teach it to the <national modal grade for 15-year-olds> in the current school year,명목(N),"5, 6, 7, 8, 9"
+TC018Q09NA,Physical education: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC018Q09NB,Physical education: I teach it to the [national modal grade for 15-year-olds] in the current school year,명목(N),"5, 6, 7, 8, 9"
+TC018Q10NA,Religion and/or ethics: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC018Q10NB,Religion and/or ethics: I teach it to the [national modal grade for 15-year-olds] in the current school year,명목(N),"5, 6, 7, 8, 9"
+TC018Q11NA,Practical/vocational skills: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC018Q11NB,Practical/vocational skills: I teach it to the [national modal grade for 15-year-olds] in the current school year,명목(N),"5, 6, 7, 8, 9"
+TC045Q01NA,Knowledge of subject: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC045Q01NB,Knowledge of subject: Included in my professional development activities during the last 12 months,명목(N),"5, 6, 7, 8, 9"
+TC045Q02NA,Teaching my subject: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC045Q02NB,Teaching my subject: Included in my professional development activities during the last 12 months,명목(N),"5, 6, 7, 8, 9"
+TC045Q03NA,Knowledge of the curriculum: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC045Q03NB,Knowledge of the curriculum: Included in my professional development activities during the last 12 months,명목(N),"5, 6, 7, 8, 9"
+TC045Q04NA,Student assessment practices: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC045Q04NB,Student assessment practices: Included in my professional development activities during the last 12 months,명목(N),"5, 6, 7, 8, 9"
+TC045Q05NA,ICT skills for teaching: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC045Q05NB,ICT skills for teaching: Included in my professional development activities during the last 12 months,명목(N),"5, 6, 7, 8, 9"
+TC045Q06NA,Student behaviour/class management: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC045Q06NB,Student behaviour/class management: Included in my professional development activities during the last 12 months,명목(N),"5, 6, 7, 8, 9"
+TC045Q08NA,Approaches to individualised learning: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC045Q08NB,Approaches to individualised learning: Included in my professional development activities during the last 12 months,명목(N),"5, 6, 7, 8, 9"
+TC045Q09NA,Teaching special needs students: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC045Q09NB,Teaching special needs students: Included in my professional development activities during the last 12 months,명목(N),"5, 6, 7, 8, 9"
+TC045Q10NA,Teaching multicultural/multilingual setting: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC045Q10NB,Teaching multicultural/multilingual setting: Included in my professional development activities during the last 12 months,명목(N),"5, 6, 7, 8, 9"
+TC045Q14NA,Use of evaluation results: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC045Q14NB,Use of evaluation results: Included in my professional development activities during the last 12 months,명목(N),"5, 6, 7, 8, 9"
+TC045Q15NA,Teacher-parent co-operation: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC045Q15NB,Teacher-parent co-operation: Included in my professional development activities during the last 12 months,명목(N),"5, 6, 7, 8, 9"
+TC045Q16HA,Second language teaching: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC045Q16HB,Second language teaching: Included in my professional development activities during the last 12 months,명목(N),"5, 6, 7, 8, 9"
+TC045Q18HA,Teaching equity/diversity: Included in my teacher education or training programme or other professional qualification,명목(N),"5, 6, 7, 8, 9"
+TC045Q18HB,Teaching equity/diversity: Included in my professional development activities during the last 12 months,명목(N),"5, 6, 7, 8, 9"
+TC021Q01NA,Are you required to take part in professional development activities?,명목(N),95 - 99
+TC185Q01HA,Degree you need professional development in: Knowledge and understanding of my subject field(s),명목(N),95 - 99
+TC185Q02HA,Degree you need professional development in: Pedagogical competencies in teaching my subject field(s),명목(N),95 - 99
+TC185Q03HA,Degree you need professional development in: Knowledge of the curriculum,명목(N),95 - 99
+TC185Q04HA,Degree you need professional development in: Student assessment practices,명목(N),95 - 99
+TC185Q05HA,Degree you need professional development in: ICT (information and communication technology) skills for teaching,명목(N),95 - 99
+TC185Q06HA,Degree you need professional development in: Student behaviour and classroom management,명목(N),95 - 99
+TC185Q08HA,Degree you need professional development in: Approaches to individualised learning,명목(N),95 - 99
+TC185Q09HA,Degree you need professional development in: Teaching students with special needs,명목(N),95 - 99
+TC185Q10HA,Degree you need professional development in: Teaching in a multicultural or multilingual setting,명목(N),95 - 99
+TC185Q14HA,Degree you need professional development in: Use of evaluation results,명목(N),95 - 99
+TC185Q15HA,Degree you need professional development in: Teacher-parent co-operation,명목(N),95 - 99
+TC185Q16HA,Degree you need professional development in: Second language teaching,명목(N),95 - 99
+TC185Q18HA,Degree you need professional development in: Teaching about equity and diversity,명목(N),95 - 99
+TC219Q01JA,"Thinking of professional development activities during last 12 months, did these positively impact your teaching?",명목(N),95 - 99
+TC046Q04NA,How often: Exchange teaching materials with colleagues,명목(N),95 - 99
+TC046Q05NA,How often: Engage in discussions about the learning development of specific students,명목(N),95 - 99
+TC046Q06NA,How often: Work with other teachers in my school to ensure common standards in evaluations for assessing student progress,명목(N),95 - 99
+TC046Q07NA,How often: Attend team conferences,명목(N),95 - 99
+TC169Q01HA,How often use for teaching: Tutorial software or practice programmes,명목(N),95 - 99
+TC169Q02HA,How often use for teaching: Digital learning games,명목(N),95 - 99
+TC169Q03HA,"How often use for teaching: Word-processors or presentation software (e.g. [Microsoft Word®], [Microsoft PowerPoint®])",명목(N),95 - 99
+TC169Q04HA,How often use for teaching: Spreadsheets (e.g. [Microsoft Excel®]),명목(N),95 - 99
+TC169Q05HA,"How often use for teaching: Multimedia production tools (e.g. media capture and editing, web production)",명목(N),95 - 99
+TC169Q06HA,"How often use for teaching: Concept mapping software (e.g. [Inspiration®], [Webspiration®])",명목(N),95 - 99
+TC169Q07HA,How often use for teaching: Data logging and monitoring tools,명목(N),95 - 99
+TC169Q08HA,How often use for teaching: Simulations and modelling software,명목(N),95 - 99
+TC169Q09HA,"How often use for teaching: Social media (e.g. [Facebook®], [Twitter])",명목(N),95 - 99
+TC169Q10HA,"How often use for teaching: Communication software (e.g. email, blogs)",명목(N),95 - 99
+TC169Q11HA,"How often use for teaching: Computer-based information resources (e.g. websites, wikis, encyclopaedia)",명목(N),95 - 99
+TC169Q15JA,"How often use for teaching: Interactive digital learning resources (e.g. instructional content, quizzes)",명목(N),95 - 99
+TC169Q13HA,How often use for teaching: Graphing or drawing software,명목(N),95 - 99
+TC169Q14HA,How often use for teaching: E-portfolios,명목(N),95 - 99
+TC054Q01NA,How often? I develop and administer my own assessment.,명목(N),95 - 99
+TC054Q02NA,How often: I administer a [standardised test].,명목(N),95 - 99
+TC054Q03NA,How often: I have individual students answer questions in front of the class.,명목(N),95 - 99
+TC054Q04NA,"How often: I provide written feedback on student work in addition to a [mark, i.e. numeric score or letter grade].",명목(N),95 - 99
+TC054Q05NA,How often: I let students judge their own progress.,명목(N),95 - 99
+TC054Q06NA,How often: I observe students when working on particular tasks and provide immediate feedback.,명목(N),95 - 99
+TC054Q07NA,How often: I collect data from classroom assignments or home work.,명목(N),95 - 99
+TC220Q02JA,How often: Use [digital resources] to design tasks,명목(N),95 - 99
+TC220Q04JA,How often: Use [digital resources] to explore new teaching methods,명목(N),95 - 99
+TC220Q06JA,How often: Use [digital resources] to enable student collaboration,명목(N),95 - 99
+TC220Q07JA,How often: Use [digital resources] to provide feedback to students,명목(N),95 - 99
+TC220Q08JA,How often: Use [digital resources] to provide access to instructional material for students who cannot physically attend class,명목(N),95 - 99
+TC220Q09JA,How often: Use [digital resources] to communicate with parents or guardians,명목(N),95 - 99
+TC220Q10JA,How often: Use online tools or computer-based testing to assess students' learning,명목(N),95 - 99
+TC220Q11JA,How often: Use [digital resources] to share ideas or resources with colleagues,명목(N),95 - 99
+TC220Q12JA,How often: Take part in professional communities of practice online,명목(N),95 - 99
+TC221Q01JA,Emphasis on teaching: Evaluating the credibility of digital information,명목(N),95 - 99
+TC221Q02JA,"Emphasis on teaching: Sharing digital information with others (e.g. through presentations, documents, images or diagrams)",명목(N),95 - 99
+TC221Q03JA,"Emphasis on teaching: Using [digital resources] to solve real-world problems (e.g. measuring the height of a building, finding directions on a map)",명목(N),95 - 99
+TC221Q04JA,Emphasis on teaching: Using digital tools to work collaboratively,명목(N),95 - 99
+TC221Q05JA,Emphasis on teaching: Understanding the consequences of public dissemination of information online (privacy and safety),명목(N),95 - 99
+TC198Q01HA,Agree/disagree: The advantages of being a teacher clearly outweigh the disadvantages.,명목(N),95 - 99
+TC198Q02HA,"Agree/disagree: If I could decide again, I would still choose to work as a teacher.",명목(N),95 - 99
+TC198Q04HA,Agree/disagree: I regret that I decided to become a teacher.,명목(N),95 - 99
+TC198Q05HA,Agree/disagree: I enjoy working at this school.,명목(N),95 - 99
+TC198Q06HA,Agree/disagree: I wonder whether it would have been better to choose another profession.,명목(N),95 - 99
+TC198Q07HA,Agree/disagree: I would recommend my school as a good place to work.,명목(N),95 - 99
+TC198Q08HA,Agree/disagree: I think that the teaching profession is valued in society.,명목(N),95 - 99
+TC198Q09HA,Agree/disagree: I am satisfied with my performance in this school.,명목(N),95 - 99
+TC198Q10HA,"Agree/disagree: All in all, I am satisfied with my job.",명목(N),95 - 99
+TC150Q01HA,"In formal education/training, extent studied: Mathematics",명목(N),95 - 99
+TC150Q02HA,"In formal education/training, extent studied: Pedagogy/teaching mathematics",명목(N),95 - 99
+TC150Q03HA,"In formal education/training, extent studied: Educational psychology",명목(N),95 - 99
+TC150Q04HA,"In formal education/training, extent studied: Remedial mathematics",명목(N),95 - 99
+TC150Q06HA,"In formal education/training, extent studied: Special education",명목(N),95 - 99
+TC150Q08HA,"In formal education/training, extent studied: Assessment methods in mathematics comprehension",명목(N),95 - 99
+TC203Q01HA,Proportion of training dedicated to: Mathematics: knowledge and skills related to mathematics domain,명목(N),995 - 999
+TC203Q02HA,"Proportion of training dedicated to: Pedagogy of mathematics: knowledge and methodology of mathematics instructional skills (evidence-based strategies, model-based approach, guided discussion)",명목(N),995 - 999
+TC203Q03HA,"Proportion of training dedicated to: General pedagogical knowledge: e.g. teacher-student interaction, classroom management, school evaluation, special education",명목(N),995 - 999
+TC204Q01HA,Proportion of professional development dedicated to: Mathematics: knowledge and skills related to mathematics domain,명목(N),995 - 999
+TC204Q02HA,"Proportion of professional development dedicated to: Pedagogy of mathematics: knowledge and methodology of mathematics instructional skills (evidence-based strategies, model-based approach, guided discussion)",명목(N),995 - 999
+TC204Q03HA,"Proportion of professional development dedicated to: General pedagogical knowledge: e.g. teacher-student interaction, classroom management, school evaluation, special education",명목(N),995 - 999
+TC170Q01HA,How often: Many students don’t listen to what I say.,명목(N),95 - 99
+TC170Q02HA,How often: There is noise and disorder.,명목(N),95 - 99
+TC170Q03HA,How often: I have to wait a long time for students to quiet down.,명목(N),95 - 99
+TC170Q04HA,How often: Students cannot work well.,명목(N),95 - 99
+TC170Q05HA,How often: Students don’t start working for a long time after the lesson begins.,명목(N),95 - 99
+TC170Q06JA,"How often: Students get distracted by using [digital resources] (e.g. smartphones, websites, apps).",명목(N),95 - 99
+TC170Q07JA,"How often: Students get distracted by other students who were using [digital resources] (e.g. smartphones, websites, apps).",명목(N),95 - 99
+TC222Q01JA,How often teach: Use [digital resources] for simple calculations,명목(N),95 - 99
+TC222Q02JA,How often teach: Use [digital resources] to solve equations,명목(N),95 - 99
+TC222Q03JA,"How often teach: Use [digital resources] for simulations and modelling (e.g. [geogebra], [Net Logo]), virtual laboratories (e.g. [Labster])",명목(N),95 - 99
+TC222Q04JA,"How often teach: Use [digital resources] for coding or algorithm activities (e.g. [Scratch], etc.)",명목(N),95 - 99
+TC223Q01JA,"How often teach: Extracting mathematical information from diagrams, graphs, or simulations",명목(N),95 - 99
+TC223Q02JA,How often teach: Interpreting mathematical solutions in the context of a real-life challenge,명목(N),95 - 99
+TC223Q03JA,How often teach: Using the concept of statistical variation to make a decision,명목(N),95 - 99
+TC223Q04JA,How often teach: Identifying mathematical aspects of a real-world problem,명목(N),95 - 99
+TC223Q05JA,How often teach: Identifying constraints and assumptions behind mathematical modelling,명목(N),95 - 99
+TC223Q06JA,"How often teach: Representing a situation mathematically using variables, symbols, or diagrams",명목(N),95 - 99
+TC223Q07JA,How often teach: Evaluating the significance of observed patterns in data,명목(N),95 - 99
+TC223Q08JA,How often teach: Coding/programming computers,명목(N),95 - 99
+TC223Q09JA,"How often teach: Working with computer mathematics systems (e.g. spreadsheets, programming software, graphing calculators)",명목(N),95 - 99
+TC223Q10JA,How often teach: Calculating the properties of an irregularly shaped object,명목(N),95 - 99
+TC227Q01JA,How often: I asked students to think of problems from everyday life that could be solved with new mathematics knowledge we learned.,명목(N),95 - 99
+TC227Q02JA,How often: I showed students how mathematics can be useful in our everyday lives.,명목(N),95 - 99
+TC227Q03JA,How often: I encouraged students to 'think mathematically'.,명목(N),95 - 99
+TC227Q04JA,How often: I taught students how to use mathematical logic when approaching new situations.,명목(N),95 - 99
+TC227Q05JA,How often: I showed students how some problems that look difficult can be solved more easily by understanding how the number system is organized.,명목(N),95 - 99
+TC227Q06JA,How often: I gave problems from everyday life involving numbers and asked students to make a decision about the situation.,명목(N),95 - 99
+TC227Q07JA,How often: I asked students how different topics are connected to a bigger mathematical idea.,명목(N),95 - 99
+TC227Q08JA,How often: I encouraged students to think about how a problem from everyday life could be solved using mathematics.,명목(N),95 - 99
+TC227Q09JA,How often: I explained how different mathematical ideas connect to a larger context.,명목(N),95 - 99
+TC228Q01JA,How often: I asked students to solve mathematics problems without computing anything.,명목(N),95 - 99
+TC228Q02JA,How often: I asked students to explain how we solved a mathematics problem.,명목(N),95 - 99
+TC228Q03JA,How often: I asked students to explain what assumptions they were making when solving a mathematics problem.,명목(N),95 - 99
+TC228Q04JA,How often: I asked students to explain their reasoning when solving a mathematics problem.,명목(N),95 - 99
+TC228Q05JA,How often: I asked students to defend their answer to a mathematics problem.,명목(N),95 - 99
+TC228Q06JA,How often: I asked students to think about how new and old mathematics topics were related.,명목(N),95 - 99
+TC228Q07JA,How often: I encouraged students to think about how to solve mathematics problems in different ways than demonstrated in class.,명목(N),95 - 99
+TC228Q08JA,How often: I told students to keep trying even when they face difficulties with a mathematics task.,명목(N),95 - 99
+TC228Q09JA,How often: I taught students to memorize rules and apply them to solve mathematics problems.,명목(N),95 - 99
+TC230Q01JA,Agree/disagree: The goal of teaching mathematics is to help students use mathematics to solve real-world problems.,명목(N),95 - 99
+TC230Q02JA,Agree/disagree: I want my students to see the structure of the number system and the logic of mathematics.,명목(N),95 - 99
+TC230Q03JA,Agree/disagree: Explaining why an answer is correct is just as important as getting a correct answer.,명목(N),95 - 99
+TC230Q04JA,"Agree/disagree: Even with the availability of calculators and computers, students need to learn traditional methods for performing mathematical operations.",명목(N),95 - 99
+TC230Q05JA,Agree/disagree: Students should be able to figure out for themselves whether they have solved a mathematics problem correctly.,명목(N),95 - 99
+TC230Q06JA,Agree/disagree: Students should learn basic skills before being asked to solve complex mathematics problems.,명목(N),95 - 99
+TC230Q07JA,Agree/disagree: Asking students to solve difficult problems in class helps them become good problem solvers.,명목(N),95 - 99
+TC230Q08JA,Agree/disagree: I would rather have my students solve a few complex problems than a lot of relatively easy ones.,명목(N),95 - 99
+TC230Q09JA,Agree/disagree: An important reason for teaching mathematics is to help students become more logical.,명목(N),95 - 99
+TC230Q10JA,Agree/disagree: Graphics calculators and computers can be used to help students see mathematics concepts in new and different ways.,명목(N),95 - 99
+TC230Q11JA,"Agree/disagree: Doing mathematics requires hypothesising, estimating, and creative thinking.",명목(N),95 - 99
+TC230Q12JA,Agree/disagree: Most things a student needs to know in mathematics can be learned through memorisation.,명목(N),95 - 99
+TC231Q01JA,Which best describes the level of students in your [national modal grade for 15-year-olds] mathematics lessons?,명목(N),95 - 99
+TC020Q01NA,Participate in: Qualification programme (e.g. a [degree programme]),명목(N),95 - 99
+TC020Q02NA,Participate in: Participation in a network of teachers formed specifically for the professional development of teachers,명목(N),95 - 99
+TC020Q03NA,Participate in: Individual or collaborative research on a topic of interest to you professionally,명목(N),95 - 99
+TC020Q04NA,"Participate in: Mentoring and/or peer observation and coaching, as part of a formal school arrangement",명목(N),95 - 99
+TC020Q05NA,"Participate in: Reading professional literature (e.g. journals, evidence-based papers, thesis papers)",명목(N),95 - 99
+TC020Q06NA,Participate in: Engaging in informal dialogue with your colleagues on how to improve your teaching,명목(N),95 - 99
+TC020Q07JA,"Participate in: Course, workshop, or conference on teaching methods",명목(N),95 - 99
+TC020Q08JA,"Participate in: Course, workshop, or conference relevant to your subject-matter field",명목(N),95 - 99
+TC020Q09JA,Participate in: Observation visits to other schools,명목(N),95 - 99
+TC020Q10JA,Participate in: Training courses in private companies or other organisations,명목(N),95 - 99
+TC020Q11JA,Participate in: Listening to or watching recorded seminars or online courses (e.g. [MOOCs]) about the use of [digital resources] for teaching,명목(N),95 - 99
+TC020Q12JA,"Participate in: Course, workshop, or conference about the use of [digital resources] for teaching",명목(N),95 - 99
+TC020Q13JA,Participate in: In-service training courses about the use of [digital resources] for teaching,명목(N),95 - 99
+TC020Q14JA,Participate in: Learning new pedagogical or instructional approaches with [digital resources],명목(N),95 - 99
+TC199Q01HA,"In your teaching, extent you can: Get students to believe they can do well in school work",명목(N),95 - 99
+TC199Q02HA,"In your teaching, extent you can: Help my students value learning",명목(N),95 - 99
+TC199Q03HA,"In your teaching, extent you can: Craft good questions for my students",명목(N),95 - 99
+TC199Q04HA,"In your teaching, extent you can: Control disruptive behaviour in the classroom",명목(N),95 - 99
+TC199Q05HA,"In your teaching, extent you can: Motivate students who show low interest in school work",명목(N),95 - 99
+TC199Q06HA,"In your teaching, extent you can: Make my expectations about student behaviour clear",명목(N),95 - 99
+TC199Q07HA,"In your teaching, extent you can: Help students think critically",명목(N),95 - 99
+TC199Q08HA,"In your teaching, extent you can: Get students to follow classroom rules",명목(N),95 - 99
+TC199Q09HA,"In your teaching, extent you can: Calm a student who is disruptive or noisy",명목(N),95 - 99
+TC199Q10HA,"In your teaching, extent you can: Use a variety of assessment strategies",명목(N),95 - 99
+TC199Q11HA,"In your teaching, extent you can: Provide an alternative explanation for example when students are confused",명목(N),95 - 99
+TC199Q12HA,"In your teaching, extent you can: Implement alternative instructional strategies in my classroom",명목(N),95 - 99
+TC232Q01JA,How often in lessons: I tailor my teaching to meet the needs of my students.,명목(N),95 - 99
+TC232Q02JA,How often in lessons: I provide individual help when a student has difficulties understanding a topic or task.,명목(N),95 - 99
+TC232Q03JA,How often in lessons: I change the structure of my lesson on a topic that most students find difficult to understand.,명목(N),95 - 99
+TC232Q04JA,How often in lessons: I provide individual support for advanced students.,명목(N),95 - 99
+TC232Q05JA,How often in lessons: I tell students how they are performing in my course.,명목(N),95 - 99
+TC232Q06JA,How often in lessons: I give students feedback on their strengths in my course.,명목(N),95 - 99
+TC232Q07JA,How often in lessons: I tell students in which areas they can still improve.,명목(N),95 - 99
+TC232Q08JA,How often in lessons: I tell students how they can improve their performance.,명목(N),95 - 99
+TC232Q09JA,How often in lessons: I advise students on how to reach their learning goals.,명목(N),95 - 99
+TC166Q01HA,"Have taught: How to use keywords when using a search engine such as [Google©], [Yahoo©], etc.",명목(N),95 - 99
+TC166Q02HA,Have taught: How to decide whether to trust information from the Internet,명목(N),95 - 99
+TC166Q03HA,Have taught: How to compare different web pages and decide what information is more relevant for the students' school work,명목(N),95 - 99
+TC166Q04HA,"Have taught: To understand the consequences of making information publicly available online on [Facebook®], [Instagram©], etc.",명목(N),95 - 99
+TC166Q05HA,Have taught: How to use the short description below the links in the list of results of a search,명목(N),95 - 99
+TC166Q06HA,Have taught: How to detect whether the information is subjective or biased,명목(N),95 - 99
+TC166Q07HA,Have taught: How to detect phishing or spam emails,명목(N),95 - 99
+TC196Q02HA,Agree/disagree: Immigrant children should have the same opportunities for education that other children in the country have.,명목(N),95 - 99
+TC196Q03HA,Agree/disagree: Immigrants who live in a country for several years should have the opportunity to vote in elections.,명목(N),95 - 99
+TC196Q04HA,Agree/disagree: Immigrants should have the opportunity to continue their own customs and lifestyle.,명목(N),95 - 99
+TC196Q05HA,Agree/disagree: Immigrants should have all the same rights that everyone else in the country has.,명목(N),95 - 99
+TC188Q01HA,Have you studied in a country other than [country of test]?,명목(N),95 - 99
+TC233Q01JA,Agree/disagree: Creativity can be trained.,명목(N),95 - 99
+TC233Q02JA,Agree/disagree: People can be creative if they keep trying.,명목(N),95 - 99
+TC233Q05JA,Agree/disagree: There are many different ways to be creative.,명목(N),95 - 99
+TC233Q06JA,Agree/disagree: It is possible to be creative in nearly any subject.,명목(N),95 - 99
+TC234Q01JA,Agree/disagree: I am very creative.,명목(N),95 - 99
+TC234Q02JA,Agree/disagree: I enjoy projects that require creative solutions.,명목(N),95 - 99
+TC234Q03JA,Agree/disagree: I enjoy solving complex problems.,명목(N),95 - 99
+TC234Q04JA,Agree/disagree: I enjoy learning new things.,명목(N),95 - 99
+TC234Q05JA,Agree/disagree: I enjoy artistic activities.,명목(N),95 - 99
+TC234Q06JA,Agree/disagree: I express myself through art.,명목(N),95 - 99
+TC234Q08JA,Agree/disagree: I have difficulty using my imagination.,명목(N),95 - 99
+TC234Q09JA,Agree/disagree: I have a good imagination.,명목(N),95 - 99
+TC235Q01JA,Agree/disagree: I value students who have many new ideas.,명목(N),95 - 99
+TC235Q02JA,Agree/disagree: I value students who are capable of writing creative stories or poems.,명목(N),95 - 99
+TC235Q03JA,Agree/disagree: It is important that students are able to make creative works like drawing and painting.,명목(N),95 - 99
+TC235Q04JA,Agree/disagree: It is important for students to be able to invent new things.,명목(N),95 - 99
+TC235Q05JA,Agree/disagree: It is important for students to solve science problems creatively.,명목(N),95 - 99
+TC235Q06JA,Agree/disagree: It is important for students to be creative in helping others have a good relationship.,명목(N),95 - 99
+TC236Q01JA,"In your class, how much importance do you give to: Group work",명목(N),95 - 99
+TC236Q02JA,"In your class, how much importance do you give to: Finding ideas through brainstorming",명목(N),95 - 99
+TC236Q03JA,"In your class, how much importance do you give to: Playing educational games",명목(N),95 - 99
+TC236Q04JA,"In your class, how much importance do you give to: Debating ideas or current issues",명목(N),95 - 99
+TC236Q05JA,"In your class, how much importance do you give to: Giving students time to explore topics on their own",명목(N),95 - 99
+TC236Q06JA,"In your class, how much importance do you give to: Journaling",명목(N),95 - 99
+TC236Q07JA,"In your class, how much importance do you give to: Incorporating creative activities like drawing or poetry into projects",명목(N),95 - 99
+TC237Q01JA,"Past 2 weeks, how often experienced in school: I was not thinking as clearly as usual.",명목(N),95 - 99
+TC237Q02JA,"Past 2 weeks, how often experienced in school: It was hard for me to think about complicated things.",명목(N),95 - 99
+TC237Q03JA,"Past 2 weeks, how often experienced in school: I was thinking slower than usual.",명목(N),95 - 99
+TC237Q04JA,"Past 2 weeks, how often experienced in school: I was distracted.",명목(N),95 - 99
+TC237Q05JA,"Past 2 weeks, how often experienced in school: It was easy for me to concentrate.",명목(N),95 - 99
+TC237Q06JA,"Past 2 weeks, how often experienced in school: I felt focused.",명목(N),95 - 99
+TC238Q01JA,"Past 2 weeks, how often felt in school: I felt cheerful and in good spirits.",명목(N),95 - 99
+TC238Q02JA,"Past 2 weeks, how often felt in school: I felt calm and relaxed.",명목(N),95 - 99
+TC238Q03JA,"Past 2 weeks, how often felt in school: I felt active and vigorous.",명목(N),95 - 99
+TC238Q04JA,"Past 2 weeks, how often felt in school: I started the school day feeling fresh and rested.",명목(N),95 - 99
+TC238Q05JA,"Past 2 weeks, how often felt in school: I was interested and engaged in my daily activities.",명목(N),95 - 99
+TC241Q01JA,Agree/disagree: Teachers can rely on the school's management for professional support.,명목(N),95 - 99
+TC241Q02JA,Agree/disagree: The principal has confidence in the expertise of the teachers.,명목(N),95 - 99
+TC241Q03JA,"Agree/disagree: Even in difficult situations, my colleagues know they can trust me.",명목(N),95 - 99
+TC241Q04JA,Agree/disagree: Teachers can rely on each other.,명목(N),95 - 99
+TC241Q05JA,Agree/disagree: I feel that I can trust my colleagues.,명목(N),95 - 99
+TC243Q01JA,Agree/disagree: I am given enough time to do what is expected of me at work.,명목(N),95 - 99
+TC243Q02JA,Agree/disagree: I have too much work for one person to do.,명목(N),95 - 99
+TC243Q03JA,Agree/disagree: There are times when I cannot meet everyone's expectations.,명목(N),95 - 99
+TC243Q04JA,Agree/disagree: I have time for breaks during the workday.,명목(N),95 - 99
+TC243Q05JA,Agree/disagree: My job prevents me from giving the time I want to my personal life.,명목(N),95 - 99
+TC243Q06JA,"Agree/disagree: My non-teaching tasks (e.g. counselling students, communicating with parents, administrative work) negatively affect my ability to teach.",명목(N),95 - 99
+TC244Q01JA,Percentage of students who: Students whose [heritage language] is different from the [test language],명목(N),95 - 99
+TC244Q02JA,Percentage of students who: Low academic achievers,명목(N),95 - 99
+TC244Q03JA,Percentage of students who: Students with [special needs],명목(N),95 - 99
+TC244Q04JA,Percentage of students who: Students with behavioural problems,명목(N),95 - 99
+TC244Q05JA,Percentage of students who: Students from [socio-economically disadvantaged homes],명목(N),95 - 99
+TC244Q06JA,Percentage of students who: Academically gifted students,명목(N),95 - 99
+TC245Q01JA,What is the size of your target [national modal grade for 15-year-olds] class?,명목(N),99995 - 99999
+TC246Q01JA,Extent control: Determining course content,명목(N),95 - 99
+TC246Q02JA,Extent control: Selecting teaching methods,명목(N),95 - 99
+TC246Q03JA,Extent control: Assessing students' learning,명목(N),95 - 99
+TC246Q04JA,Extent control: Disciplining students,명목(N),95 - 99
+TC246Q05JA,Extent control: Determining the amount of homework to be assigned,명목(N),95 - 99
+TC246Q06JA,"Extent control: Turning down non-teaching tasks (e.g. counselling students, communicating with parents, administrative work)",명목(N),95 - 99
+TC246Q07JA,Extent control: Choosing teaching materials such as the textbooks,명목(N),95 - 99
+TC247Q01JA,How often received feedback from: External individuals or staff from external bodies,명목(N),95 - 99
+TC247Q02JA,How often received feedback from: School principal or member(s) of the [school management team],명목(N),95 - 99
+TC247Q03JA,How often received feedback from: Other colleagues within the school (not a part of the [school management team],명목(N),95 - 99
+TC247Q04JA,How often received feedback from: Parents or guardians,명목(N),95 - 99
+TC248Q01JA,Did any feedback you received in past 12 months positively impact your teaching?,명목(N),95 - 99
+TC249Q01JA,For how many more years do you want to continue to work as a teacher?,명목(N),99995 - 99999
+TC250Q01JA,"This school year, have you seriously considered leaving classroom teaching?",명목(N),95 - 99
+TC251Q01JA,How likely to leave teaching due to: To be promoted to a school leader/principal,명목(N),95 - 99
+TC251Q02JA,How likely to leave teaching due to: To pursue further education toward a degree in education,명목(N),95 - 99
+TC251Q03JA,How likely to leave teaching due to: To pursue further education toward a degree outside of the field of education,명목(N),95 - 99
+TC251Q04JA,How likely to leave teaching due to: To take a job outside of education,명목(N),95 - 99
+TC251Q05JA,How likely to leave teaching due to: For family reasons,명목(N),95 - 99
+TC251Q06JA,How likely to leave teaching due to: To take a break from work,명목(N),95 - 99
+TC251Q07JA,How likely to leave teaching due to: Because I shall have reached the retirement age as a teacher,명목(N),95 - 99
+TC253Q01JA,How often: My principal collaborated with teachers to solve classroom discipline problems.,명목(N),95 - 99
+TC253Q02JA,How often: My principal observed instruction in the classroom.,명목(N),95 - 99
+TC253Q03JA,How often: My principal provided feedback to teachers based on his/her observations.,명목(N),95 - 99
+TC253Q04JA,How often: My principal took actions to support co-operation among teachers to develop new teaching practices.,명목(N),95 - 99
+TC253Q05JA,How often: My principal took actions to ensure that teachers take responsibility for improving their teaching skills.,명목(N),95 - 99
+TC253Q06JA,How often: My principal took actions to ensure that teachers feel responsible for their students' learning outcomes.,명목(N),95 - 99
+TC253Q07JA,How often: My principal organizes people and activities in a way that facilitates the teachers' work.,명목(N),95 - 99
+TC254Q01JA,Extent the following occurs: I experience stress in my work.,명목(N),95 - 99
+TC254Q02JA,Extent the following occurs: My job leaves me time for my personal life.,명목(N),95 - 99
+TC254Q03JA,Extent the following occurs: My job negatively impacts my mental health.,명목(N),95 - 99
+TC254Q04JA,Extent the following occurs: My job negatively impacts my physical health.,명목(N),95 - 99
+TC255Q01JA,Extent the following are sources of stress in your work: Having too little time for lesson preparation,명목(N),95 - 99
+TC255Q02JA,Extent the following are sources of stress in your work: Having too many lessons to teach,명목(N),95 - 99
+TC255Q03JA,Extent the following are sources of stress in your work: Having too much [marking],명목(N),95 - 99
+TC255Q04JA,Extent the following are sources of stress in your work: Having too much administrative work to do,명목(N),95 - 99
+TC255Q05JA,Extent the following are sources of stress in your work: Being held responsible for students' achievement,명목(N),95 - 99
+TC255Q06JA,Extent the following are sources of stress in your work: Maintaining classroom discipline,명목(N),95 - 99
+TC255Q07JA,Extent the following are sources of stress in your work: Being intimidated or verbally abused by students,명목(N),95 - 99
+TC255Q08JA,Extent the following are sources of stress in your work: Addressing parent or guardian concerns,명목(N),95 - 99
+TC255Q09JA,Extent the following are sources of stress in your work: Modifying lessons for students with [special needs],명목(N),95 - 99
+TC256Q01JA,"This school year, how often have you had the following during the school day: Headache",명목(N),95 - 99
+TC256Q02JA,"This school year, how often have you had the following during the school day: Stomach pain",명목(N),95 - 99
+TC256Q03JA,"This school year, how often have you had the following during the school day: Back pain",명목(N),95 - 99
+TC256Q04JA,"This school year, how often have you had the following during the school day: Feeling down",명목(N),95 - 99
+TC256Q05JA,"This school year, how often have you had the following during the school day: Irritability",명목(N),95 - 99
+TC256Q06JA,"This school year, how often have you had the following during the school day: Feeling nervous",명목(N),95 - 99
+TC256Q07JA,"This school year, how often have you had the following during the school day: Fatigue",명목(N),95 - 99
+TC256Q08JA,"This school year, how often have you had the following during the school day: Feeling dizzy",명목(N),95 - 99
+TC256Q09JA,"This school year, how often have you had the following during the school day: Feeling anxious",명목(N),95 - 99
+TC256Q10JA,"This school year, how often have you had the following during the school day: Sleep deprivation",명목(N),95 - 99
+TC257Q01JA,"This school year, how many days have you missed work because of any of the previously listed symptoms?",명목(N),995 - 999
+TC258Q01JA,"Overall, how satisfied are you with your job as a whole these days?",척도(S),95 - 99
+TC259Q01JA,"Overall, how satisfied are you with your life as a whole these days?",척도(S),95 - 99
+TC260Q01JA,Agree/disagree: I have a sense of direction and purpose in my work.,명목(N),95 - 99
+TC260Q02JA,Agree/disagree: My daily activities often seem trivial and unimportant to me.,명목(N),95 - 99
+TC260Q03JA,Agree/disagree: I enjoy making work plans for my future.,명목(N),95 - 99
+TC260Q04JA,Agree/disagree: I sometimes feel as if I've done all there is to do at my work.,명목(N),95 - 99
+TC260Q05JA,Agree/disagree: I sometimes feel my job is useless.,명목(N),95 - 99
+PROPWORK,Proportion of working years at this school,순서(O),95.0000 - 99.0000
+OTT1,"Originally trained teachers, strict definition",순서(O),"5, 6, 7, 8, 9"
+OTT2,"Originally trained teachers, broad definition",순서(O),"5, 6, 7, 8, 9"
+NTEACH1,"Trained to teach reading, writing, and literature",순서(O),"5, 6, 7, 8, 9"
+NTEACH2,Trained to teach mathematics,순서(O),"5, 6, 7, 8, 9"
+NTEACH3,Trained to teach science,순서(O),"5, 6, 7, 8, 9"
+NTEACH4,Trained to teach technology,순서(O),"5, 6, 7, 8, 9"
+NTEACH5,Trained to teach social studies,순서(O),"5, 6, 7, 8, 9"
+NTEACH6,Trained to teach modern foreign languages,순서(O),"5, 6, 7, 8, 9"
+NTEACH7,Trained to teach ancient languages (e.g. Latin),순서(O),"5, 6, 7, 8, 9"
+NTEACH8,Trained to teach arts,순서(O),"5, 6, 7, 8, 9"
+NTEACH9,Trained to teach physical education,순서(O),"5, 6, 7, 8, 9"
+NTEACH10,Trained to teach religion and/or ethics,순서(O),"5, 6, 7, 8, 9"
+NTEACH11,Trained to teach practical and vocational skills,순서(O),"5, 6, 7, 8, 9"
+STTMG1,"Overlap between initial education and teaching reading, writing, and literature at the modal grade",순서(O),"5, 6, 7, 8, 9"
+STTMG2,Overlap between initial education and teaching mathematics at the modal grade,순서(O),"5, 6, 7, 8, 9"
+STTMG3,Overlap between initial education and teaching science at the modal grade,순서(O),"5, 6, 7, 8, 9"
+STTMG4,Overlap between initial education and teaching technology at the modal grade,순서(O),"5, 6, 7, 8, 9"
+STTMG5,Overlap between initial education and teaching social studies at the modal grade,순서(O),"5, 6, 7, 8, 9"
+STTMG6,Overlap between initial education and teaching  modern foreign languages at the modal grade,순서(O),"5, 6, 7, 8, 9"
+STTMG7,Overlap between initial education and teaching ancient languages (e.g. Latin) at the modal grade,순서(O),"5, 6, 7, 8, 9"
+STTMG8,Overlap between initial education and teaching arts at the modal grade,순서(O),"5, 6, 7, 8, 9"
+STTMG9,Overlap between initial education and teaching physical education at the modal grade,순서(O),"5, 6, 7, 8, 9"
+STTMG10,Overlap between initial education and teaching religion and/or ethics at the modal grade,순서(O),"5, 6, 7, 8, 9"
+STTMG11,Overlap between initial education and teaching practical and vocational skills at the modal grade,순서(O),"5, 6, 7, 8, 9"
+PRPDT,Proportion of Professional Development (WLE),척도(S),95.0000 - 99.0000
+TC045Q01,Content overlap between initial education and professional development about knowledge and understanding of my subject field,순서(O),"5, 6, 7, 8, 9"
+TC045Q02,Content overlap between initial education and professional development about pedagogical competencies in teaching my subject field(s),순서(O),"5, 6, 7, 8, 9"
+TC045Q03,Content overlap between initial education and professional development about knowledge of the curriculum,순서(O),"5, 6, 7, 8, 9"
+TC045Q04,Content overlap between initial education and professional development about student assessment practices,순서(O),"5, 6, 7, 8, 9"
+TC045Q05,Content overlap between initial education and professional development about ICT (information and communication technology) skills for teaching,순서(O),"5, 6, 7, 8, 9"
+TC045Q06,Content overlap between initial education and professional development about student behaviour and classroom management,순서(O),"5, 6, 7, 8, 9"
+TC045Q08,Content overlap between initial education and professional development about approaches to individualised learning,순서(O),"5, 6, 7, 8, 9"
+TC045Q09,Content overlap between initial education and professional development about teaching students with special needs,순서(O),"5, 6, 7, 8, 9"
+TC045Q10,Content overlap between initial education and professional development about teaching in a multicultural or multilingual setting,순서(O),"5, 6, 7, 8, 9"
+TC045Q14,Content overlap between initial education and professional development about use of evaluation results,순서(O),"5, 6, 7, 8, 9"
+TC045Q15,Content overlap between initial education and professional development about teacher-parent co-operation,순서(O),"5, 6, 7, 8, 9"
+TC045Q16,Content overlap between initial education and professional development about second language teaching,순서(O),"5, 6, 7, 8, 9"
+TC045Q18,Content overlap between initial education and professional development about teaching about  equity and diversity,순서(O),"5, 6, 7, 8, 9"
+EXCHT,Exchange and co-ordination for teaching (WLE),척도(S),95.0000 - 99.0000
+ICTOTL,Teaching ICT awareness (WLE),척도(S),95.0000 - 99.0000
+TCICTUSE,Teachers’ use of specific ICT applications (WLE),척도(S),95.0000 - 99.0000
+TCDISCLIMA,Disciplinary climate in mathematics (WLE),척도(S),95.0000 - 99.0000
+DEVNEED,Need for professional development (WLE),척도(S),95.0000 - 99.0000
+COBN_T,Teacher's country of birth,명목(N),없음
+STABROAD,Study abroad,순서(O),"5, 6, 7, 8, 9"
+TCATTIMM,Teachers' attitudes toward equal rights for immigrants (WLE),척도(S),95.0000 - 99.0000
+SATJOB,Satisfaction with current job environment (WLE),척도(S),95.0000 - 99.0000
+SATTEACH,Satisfaction with teaching profession (WLE),척도(S),95.0000 - 99.0000
+SEFFCM,Teacher’s self-efficacy in classroom-management (WLE),척도(S),95.0000 - 99.0000
+SEFFREL,Teacher’s self-efficacy in maintaining positive relations with students (WLE),척도(S),95.0000 - 99.0000
+SEFFINS,Teacher’s self-efficacy in instructional settings (WLE),척도(S),95.0000 - 99.0000
+TCISCED,Higher educational level attained,순서(O),95 - 99
+EMPLSTAT,Employment status,순서(O),"5, 6, 7, 8, 9"
+EMPLSTATd,Employment status (dichotomous),순서(O),"5, 6, 7, 8, 9"
+TCWKLOAD,Weekly teach workload,순서(O),995 - 999
+TCDIGRES,Teacher use of ICT (WLE),척도(S),95.0000 - 99.0000
+ICTCOMP,Emphasis on ICT competencies (WLE),척도(S),95.0000 - 99.0000
+ICTMATTC,Use of digital resources for mathematics,순서(O),"5, 6, 7, 8, 9"
+EXPO21TC,Teaching of mathematical reasoning and 21st Century mathematics topics (WLE),척도(S),95.0000 - 99.0000
+COGACMTC,Encouraging mathematical thinking (WLE),척도(S),95.0000 - 99.0000
+COGACRTC,Fostering reasoning  (WLE),척도(S),95.0000 - 99.0000
+TCMGOALS,Goals and views about teaching mathematics (WLE),척도(S),95.0000 - 99.0000
+ADAPTINSTR,Adaptation of Instruction  (WLE),척도(S),95.0000 - 99.0000
+FEEDBINSTR,Feedback provided by the teachers (WLE),척도(S),95.0000 - 99.0000
+OPENCTTC,Openness to creativity (WLE),척도(S),95.0000 - 99.0000
+CREATVAL,Creative values (WLE),척도(S),95.0000 - 99.0000
+CREATPED,Teachers' Use of Creative pedagogies (WLE),척도(S),95.0000 - 99.0000
+CAPCON,Teachers' capacity to concentrate at work (WLE),척도(S),95.0000 - 99.0000
+AFFECT,Affect (WLE),척도(S),95.0000 - 99.0000
+TRUST,Teachers' feeling of trust (WLE),척도(S),95.0000 - 99.0000
+OVERLOAD,Teachers' work overload (WLE),척도(S),95.0000 - 99.0000
+AUTONOMY,Teachers' work autonomy (WLE),척도(S),95.0000 - 99.0000
+LEADSHIP,School leadership (WLE),척도(S),95.0000 - 99.0000
+OCSTRESS,Occupational stress (WLE),척도(S),95.0000 - 99.0000
+STRESS,Sources of stress (WLE),척도(S),95.0000 - 99.0000
+NEGSYMPT,Negative physical symptoms (WLE),척도(S),95.0000 - 99.0000
+W_SCHGRNRABWT,GRADE NONRESPONSE ADJUSTED SCHOOL BASE WEIGHT,척도(S),없음
+W_FTCHWT,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER WEIGHT,척도(S),없음
+W_FTCHRWT1,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT1,척도(S),없음
+W_FTCHRWT2,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT2,척도(S),없음
+W_FTCHRWT3,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT3,척도(S),없음
+W_FTCHRWT4,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT4,척도(S),없음
+W_FTCHRWT5,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT5,척도(S),없음
+W_FTCHRWT6,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT6,척도(S),없음
+W_FTCHRWT7,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT7,척도(S),없음
+W_FTCHRWT8,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT8,척도(S),없음
+W_FTCHRWT9,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT9,척도(S),없음
+W_FTCHRWT10,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT10,척도(S),없음
+W_FTCHRWT11,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT11,척도(S),없음
+W_FTCHRWT12,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT12,척도(S),없음
+W_FTCHRWT13,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT13,척도(S),없음
+W_FTCHRWT14,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT14,척도(S),없음
+W_FTCHRWT15,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT15,척도(S),없음
+W_FTCHRWT16,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT16,척도(S),없음
+W_FTCHRWT17,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT17,척도(S),없음
+W_FTCHRWT18,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT18,척도(S),없음
+W_FTCHRWT19,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT19,척도(S),없음
+W_FTCHRWT20,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT20,척도(S),없음
+W_FTCHRWT21,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT21,척도(S),없음
+W_FTCHRWT22,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT22,척도(S),없음
+W_FTCHRWT23,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT23,척도(S),없음
+W_FTCHRWT24,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT24,척도(S),없음
+W_FTCHRWT25,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT25,척도(S),없음
+W_FTCHRWT26,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT26,척도(S),없음
+W_FTCHRWT27,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT27,척도(S),없음
+W_FTCHRWT28,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT28,척도(S),없음
+W_FTCHRWT29,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT29,척도(S),없음
+W_FTCHRWT30,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT30,척도(S),없음
+W_FTCHRWT31,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT31,척도(S),없음
+W_FTCHRWT32,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT32,척도(S),없음
+W_FTCHRWT33,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT33,척도(S),없음
+W_FTCHRWT34,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT34,척도(S),없음
+W_FTCHRWT35,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT35,척도(S),없음
+W_FTCHRWT36,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT36,척도(S),없음
+W_FTCHRWT37,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT37,척도(S),없음
+W_FTCHRWT38,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT38,척도(S),없음
+W_FTCHRWT39,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT39,척도(S),없음
+W_FTCHRWT40,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT40,척도(S),없음
+W_FTCHRWT41,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT41,척도(S),없음
+W_FTCHRWT42,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT42,척도(S),없음
+W_FTCHRWT43,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT43,척도(S),없음
+W_FTCHRWT44,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT44,척도(S),없음
+W_FTCHRWT45,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT45,척도(S),없음
+W_FTCHRWT46,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT46,척도(S),없음
+W_FTCHRWT47,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT47,척도(S),없음
+W_FTCHRWT48,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT48,척도(S),없음
+W_FTCHRWT49,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT49,척도(S),없음
+W_FTCHRWT50,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT50,척도(S),없음
+W_FTCHRWT51,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT51,척도(S),없음
+W_FTCHRWT52,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT52,척도(S),없음
+W_FTCHRWT53,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT53,척도(S),없음
+W_FTCHRWT54,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT54,척도(S),없음
+W_FTCHRWT55,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT55,척도(S),없음
+W_FTCHRWT56,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT56,척도(S),없음
+W_FTCHRWT57,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT57,척도(S),없음
+W_FTCHRWT58,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT58,척도(S),없음
+W_FTCHRWT59,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT59,척도(S),없음
+W_FTCHRWT60,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT60,척도(S),없음
+W_FTCHRWT61,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT61,척도(S),없음
+W_FTCHRWT62,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT62,척도(S),없음
+W_FTCHRWT63,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT63,척도(S),없음
+W_FTCHRWT64,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT64,척도(S),없음
+W_FTCHRWT65,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT65,척도(S),없음
+W_FTCHRWT66,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT66,척도(S),없음
+W_FTCHRWT67,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT67,척도(S),없음
+W_FTCHRWT68,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT68,척도(S),없음
+W_FTCHRWT69,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT69,척도(S),없음
+W_FTCHRWT70,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT70,척도(S),없음
+W_FTCHRWT71,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT71,척도(S),없음
+W_FTCHRWT72,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT72,척도(S),없음
+W_FTCHRWT73,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT73,척도(S),없음
+W_FTCHRWT74,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT74,척도(S),없음
+W_FTCHRWT75,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT75,척도(S),없음
+W_FTCHRWT76,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT76,척도(S),없음
+W_FTCHRWT77,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT77,척도(S),없음
+W_FTCHRWT78,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT78,척도(S),없음
+W_FTCHRWT79,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT79,척도(S),없음
+W_FTCHRWT80,FINAL TRIMMED NONRESPONSE ADJUSTED TEACHER REPLICATE BRR-FAY WEIGHT80,척도(S),없음
+UNIT,REP_BWGT: RANDOMLY ASSIGNED UNIT NUMBER,순서(O),없음
+WVARSTRR,RANDOMIZED FINAL VARIANCE STRATUM (1-80),순서(O),없음
+W_FSTUWT_SCH_SUM,Sum of W_FSTUWT,척도(S),없음
+W_FSTUWT_SCH_N,N of W_FSTUWT,명목(N),없음
+SENWT,Senate Weight (sum of 5000 per country),척도(S),없음
+VER_DAT,Date of the database creation,명목(N),없음
