@@ -9,3 +9,5 @@
 **/checkpoint
 **/logs
 **/*.SAV
+**/catboost_info
+**/*.log
